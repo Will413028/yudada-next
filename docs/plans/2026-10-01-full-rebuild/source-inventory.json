@@ -1,0 +1,1843 @@
+{
+  "commit": "e5eb265817f13481a543c8a5da4e409d716363e7",
+  "source_files": 183,
+  "routes": [
+    {
+      "http": "POST",
+      "path": "/app/add",
+      "symbol": "addApp",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 53,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/add",
+          "symbol": "addAppUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 5,
+          "ui_references": [
+            "yudada-frontend/src/views/add/AddAppPage.vue:67",
+            "yudada-frontend/src/views/add/AddAppPage.vue:131"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/delete",
+      "symbol": "deleteApp",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 80,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/delete",
+          "symbol": "deleteAppUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 17,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminAppPage.vue:88",
+            "yudada-frontend/src/views/admin/AdminAppPage.vue:161"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/update",
+      "symbol": "updateApp",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 106,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/update",
+          "symbol": "updateAppUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 119,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/app/get/vo",
+      "symbol": "getAppVOById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 133,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/app/get/vo",
+          "symbol": "getAppVoByIdUsingGet",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 44,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:60",
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:130",
+            "yudada-frontend/src/views/app/AppDetailPage.vue:54",
+            "yudada-frontend/src/views/app/AppDetailPage.vue:91",
+            "yudada-frontend/src/views/add/AddAppPage.vue:69",
+            "yudada-frontend/src/views/add/AddAppPage.vue:102"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/list/page",
+      "symbol": "listAppByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 149,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/list/page",
+          "symbol": "listAppByPageUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 59,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminAppPage.vue:90",
+            "yudada-frontend/src/views/admin/AdminAppPage.vue:122"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/list/page/vo",
+      "symbol": "listAppVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 167,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/list/page/vo",
+          "symbol": "listAppVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 74,
+          "ui_references": [
+            "yudada-frontend/src/views/HomePage.vue:35",
+            "yudada-frontend/src/views/HomePage.vue:61"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/my/list/page/vo",
+      "symbol": "listMyAppVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 190,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/my/list/page/vo",
+          "symbol": "listMyAppVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 89,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/edit",
+      "symbol": "editApp",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 215,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/edit",
+          "symbol": "editAppUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 32,
+          "ui_references": [
+            "yudada-frontend/src/views/add/AddAppPage.vue:68",
+            "yudada-frontend/src/views/add/AddAppPage.vue:125"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/app/review",
+      "symbol": "doAppReview",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "line": 251,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/app/review",
+          "symbol": "doAppReviewUsingPost",
+          "source": "yudada-frontend/src/api/appController.ts",
+          "line": 104,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminAppPage.vue:89",
+            "yudada-frontend/src/views/admin/AdminAppPage.vue:186"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite App business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/app/statistic/answer_count",
+      "symbol": "getAppAnswerCount",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppStatisticController.java",
+      "line": 48,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/app/statistic/answer_count",
+          "symbol": "getAppAnswerCountUsingGet",
+          "source": "yudada-frontend/src/api/appStatisticController.ts",
+          "line": 5,
+          "ui_references": [
+            "yudada-frontend/src/views/statistic/AppStatisticPage.vue:26",
+            "yudada-frontend/src/views/statistic/AppStatisticPage.vue:39"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite AppStatistic business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "6a",
+      "acceptance": "step 6a UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/app/statistic/answer_result_count",
+      "symbol": "getAppAnswerResultCount",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppStatisticController.java",
+      "line": 59,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/app/statistic/answer_result_count",
+          "symbol": "getAppAnswerResultCountUsingGet",
+          "source": "yudada-frontend/src/api/appStatisticController.ts",
+          "line": 13,
+          "ui_references": [
+            "yudada-frontend/src/views/statistic/AppStatisticPage.vue:27",
+            "yudada-frontend/src/views/statistic/AppStatisticPage.vue:75"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite AppStatistic business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "6a",
+      "acceptance": "step 6a UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/file/upload",
+      "symbol": "uploadFile",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/FileController.java",
+      "line": 51,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/file/upload",
+          "symbol": "uploadFileUsingPost",
+          "source": "yudada-frontend/src/api/fileController.ts",
+          "line": 5,
+          "ui_references": [
+            "yudada-frontend/src/components/PictureUploader.vue:52",
+            "yudada-frontend/src/components/PictureUploader.vue:84"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite File business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "4",
+      "acceptance": "step 4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/add",
+      "symbol": "addPost",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 59,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/add",
+          "symbol": "addPostUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 5,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/delete",
+      "symbol": "deletePost",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 88,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/delete",
+          "symbol": "deletePostUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 17,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/update",
+      "symbol": "updatePost",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 112,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/update",
+          "symbol": "updatePostUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 107,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/post/get/vo",
+      "symbol": "getPostVOById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 140,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/post/get/vo",
+          "symbol": "getPostVoByIdUsingGet",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 47,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/list/page",
+      "symbol": "listPostByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 158,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/list/page",
+          "symbol": "listPostByPageUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 62,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/list/page/vo",
+      "symbol": "listPostVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 175,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/list/page/vo",
+          "symbol": "listPostVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 77,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/my/list/page/vo",
+      "symbol": "listMyPostVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 194,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/my/list/page/vo",
+          "symbol": "listMyPostVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 92,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post/edit",
+      "symbol": "editPost",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "line": 220,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post/edit",
+          "symbol": "editPostUsingPost",
+          "source": "yudada-frontend/src/api/postController.ts",
+          "line": 32,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post_favour/",
+      "symbol": "doPostFavour",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostFavourController.java",
+      "line": 53,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post_favour/",
+          "symbol": "doPostFavourUsingPost",
+          "source": "yudada-frontend/src/api/postFavourController.ts",
+          "line": 5,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post_favour/my/list/page",
+      "symbol": "listMyFavourPostByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostFavourController.java",
+      "line": 72,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post_favour/my/list/page",
+          "symbol": "listMyFavourPostByPageUsingPost",
+          "source": "yudada-frontend/src/api/postFavourController.ts",
+          "line": 35,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post_favour/list/page",
+      "symbol": "listFavourPostByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostFavourController.java",
+      "line": 94,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post_favour/list/page",
+          "symbol": "listFavourPostByPageUsingPost",
+          "source": "yudada-frontend/src/api/postFavourController.ts",
+          "line": 20,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/post_thumb/",
+      "symbol": "doThumb",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostThumbController.java",
+      "line": 43,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/post_thumb/",
+          "symbol": "doThumbUsingPost",
+          "source": "yudada-frontend/src/api/postThumbController.ts",
+          "line": 5,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit template post/social APIs",
+      "requires_decision": "D7",
+      "step": "0",
+      "acceptance": "step 0 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/add",
+      "symbol": "addQuestion",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 75,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/add",
+          "symbol": "addQuestionUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 5,
+          "ui_references": [
+            "yudada-frontend/src/views/add/AddQuestionPage.vue:111",
+            "yudada-frontend/src/views/add/AddQuestionPage.vue:229"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/delete",
+      "symbol": "deleteQuestion",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 103,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/delete",
+          "symbol": "deleteQuestionUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 65,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminQuestionPage.vue:64",
+            "yudada-frontend/src/views/admin/AdminQuestionPage.vue:128"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/update",
+      "symbol": "updateQuestion",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 129,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/update",
+          "symbol": "updateQuestionUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 155,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/question/get/vo",
+      "symbol": "getQuestionVOById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 158,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/question/get/vo",
+          "symbol": "getQuestionVoByIdUsingGet",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 95,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/list/page",
+      "symbol": "listQuestionByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 174,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/list/page",
+          "symbol": "listQuestionByPageUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 110,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminQuestionPage.vue:65",
+            "yudada-frontend/src/views/admin/AdminQuestionPage.vue:89"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/list/page/vo",
+      "symbol": "listQuestionVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 192,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/list/page/vo",
+          "symbol": "listQuestionVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 125,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:58",
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:139",
+            "yudada-frontend/src/views/add/AddQuestionPage.vue:113",
+            "yudada-frontend/src/views/add/AddQuestionPage.vue:191"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/my/list/page/vo",
+      "symbol": "listMyQuestionVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 213,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/my/list/page/vo",
+          "symbol": "listMyQuestionVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 140,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/edit",
+      "symbol": "editQuestion",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 238,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/edit",
+          "symbol": "editQuestionUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 80,
+          "ui_references": [
+            "yudada-frontend/src/views/add/AddQuestionPage.vue:112",
+            "yudada-frontend/src/views/add/AddQuestionPage.vue:223"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/question/ai_generate",
+      "symbol": "aiGenerateQuestion",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 305,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/question/ai_generate",
+          "symbol": "aiGenerateQuestionUsingPost",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 20,
+          "ui_references": [
+            "yudada-frontend/src/views/add/components/AiGenerateQuestionDrawer.vue:64",
+            "yudada-frontend/src/views/add/components/AiGenerateQuestionDrawer.vue:108"
+          ]
+        }
+      ],
+      "direct_ui_references": [
+        "yudada-frontend/src/views/add/components/AiGenerateQuestionDrawer.vue:137"
+      ],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/question/ai_generate/sse",
+      "symbol": "aiGenerateQuestionSSE",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 328,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/question/ai_generate/sse",
+          "symbol": "aiGenerateQuestionSseUsingGet",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 35,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [
+        "yudada-frontend/src/views/add/components/AiGenerateQuestionDrawer.vue:137"
+      ],
+      "disposition": "rewrite Question business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/question/ai_generate/sse/test",
+      "symbol": "aiGenerateQuestionSSETest",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "line": 394,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/question/ai_generate/sse/test",
+          "symbol": "aiGenerateQuestionSseTestUsingGet",
+          "source": "yudada-frontend/src/api/questionController.ts",
+          "line": 50,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit public test endpoint; fault tests replace it",
+      "requires_decision": "D7",
+      "step": "3/4/5b",
+      "acceptance": "step 3/4/5b UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/add",
+      "symbol": "addScoringResult",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 56,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/add",
+          "symbol": "addScoringResultUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 5,
+          "ui_references": [
+            "yudada-frontend/src/views/add/AddScoringResultPage.vue:60",
+            "yudada-frontend/src/views/add/AddScoringResultPage.vue:108"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/delete",
+      "symbol": "deleteScoringResult",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 84,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/delete",
+          "symbol": "deleteScoringResultUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 20,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminScoringResultPage.vue:73",
+            "yudada-frontend/src/views/admin/AdminScoringResultPage.vue:137",
+            "yudada-frontend/src/views/add/components/ScoringResultTable.vue:60",
+            "yudada-frontend/src/views/add/components/ScoringResultTable.vue:150"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/update",
+      "symbol": "updateScoringResult",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 110,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/update",
+          "symbol": "updateScoringResultUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 110,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/scoringResult/get/vo",
+      "symbol": "getScoringResultVOById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 139,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/scoringResult/get/vo",
+          "symbol": "getScoringResultVoByIdUsingGet",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 50,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/list/page",
+      "symbol": "listScoringResultByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 155,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/list/page",
+          "symbol": "listScoringResultByPageUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 65,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminScoringResultPage.vue:74",
+            "yudada-frontend/src/views/admin/AdminScoringResultPage.vue:98"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/list/page/vo",
+      "symbol": "listScoringResultVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 173,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/list/page/vo",
+          "symbol": "listScoringResultVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 80,
+          "ui_references": [
+            "yudada-frontend/src/views/add/components/ScoringResultTable.vue:61",
+            "yudada-frontend/src/views/add/components/ScoringResultTable.vue:105"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/my/list/page/vo",
+      "symbol": "listMyScoringResultVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 194,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/my/list/page/vo",
+          "symbol": "listMyScoringResultVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 95,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/scoringResult/edit",
+      "symbol": "editScoringResult",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "line": 219,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/scoringResult/edit",
+          "symbol": "editScoringResultUsingPost",
+          "source": "yudada-frontend/src/api/scoringResultController.ts",
+          "line": 35,
+          "ui_references": [
+            "yudada-frontend/src/views/add/AddScoringResultPage.vue:61",
+            "yudada-frontend/src/views/add/AddScoringResultPage.vue:102"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite ScoringResult business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4",
+      "acceptance": "step 3/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/add",
+      "symbol": "addUserAnswer",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 68,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/add",
+          "symbol": "addUserAnswerUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 5,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:62",
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:180"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite UserAnswer business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/delete",
+      "symbol": "deleteUserAnswer",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 117,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/delete",
+          "symbol": "deleteUserAnswerUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 20,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/MyAnswerPage.vue:72",
+            "yudada-frontend/src/views/answer/MyAnswerPage.vue:137",
+            "yudada-frontend/src/views/admin/AdminUserAnswerPage.vue:79",
+            "yudada-frontend/src/views/admin/AdminUserAnswerPage.vue:144"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite UserAnswer business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/update",
+      "symbol": "updateUserAnswer",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 143,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/update",
+          "symbol": "updateUserAnswerUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 118,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit post-score answer mutation; preserve history",
+      "requires_decision": "D7",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/userAnswer/get/vo",
+      "symbol": "getUserAnswerVOById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 172,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/userAnswer/get/vo",
+          "symbol": "getUserAnswerVoByIdUsingGet",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 58,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/AnswerResultPage.vue:49",
+            "yudada-frontend/src/views/answer/AnswerResultPage.vue:76"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite UserAnswer business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/list/page",
+      "symbol": "listUserAnswerByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 188,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/list/page",
+          "symbol": "listUserAnswerByPageUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 73,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminUserAnswerPage.vue:80",
+            "yudada-frontend/src/views/admin/AdminUserAnswerPage.vue:105"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite UserAnswer business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/list/page/vo",
+      "symbol": "listUserAnswerVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 206,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/list/page/vo",
+          "symbol": "listUserAnswerVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 88,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite UserAnswer business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/my/list/page/vo",
+      "symbol": "listMyUserAnswerVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 227,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/my/list/page/vo",
+          "symbol": "listMyUserAnswerVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 103,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/MyAnswerPage.vue:73",
+            "yudada-frontend/src/views/answer/MyAnswerPage.vue:98"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite UserAnswer business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/userAnswer/edit",
+      "symbol": "editUserAnswer",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 252,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/userAnswer/edit",
+          "symbol": "editUserAnswerUsingPost",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 35,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "propose omit post-score answer mutation; preserve history",
+      "requires_decision": "D7",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/userAnswer/generate/id",
+      "symbol": "generateUserAnswerId",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "line": 280,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/userAnswer/generate/id",
+          "symbol": "generateUserAnswerIdUsingGet",
+          "source": "yudada-frontend/src/api/userAnswerController.ts",
+          "line": 50,
+          "ui_references": [
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:63",
+            "yudada-frontend/src/views/answer/DoAnswerPage.vue:109"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "replace frontend preallocated ID with Idempotency-Key + server ID",
+      "requires_decision": "none",
+      "step": "3/4/5c",
+      "acceptance": "step 3/4/5c UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/register",
+      "symbol": "userRegister",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 63,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/register",
+          "symbol": "userRegisterUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 123,
+          "ui_references": [
+            "yudada-frontend/src/views/user/UserRegisterPage.vue:52",
+            "yudada-frontend/src/views/user/UserRegisterPage.vue:68"
+          ]
+        }
+      ],
+      "direct_ui_references": [
+        "yudada-frontend/src/router/routes.ts:172",
+        "yudada-frontend/src/views/user/UserLoginPage.vue:32"
+      ],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/login",
+      "symbol": "userLogin",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 85,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/login",
+          "symbol": "userLoginUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 100,
+          "ui_references": [
+            "yudada-frontend/src/views/user/UserLoginPage.vue:42",
+            "yudada-frontend/src/views/user/UserLoginPage.vue:59"
+          ]
+        }
+      ],
+      "direct_ui_references": [
+        "yudada-frontend/src/request.ts:35",
+        "yudada-frontend/src/components/GlobalHeader.vue:29",
+        "yudada-frontend/src/router/routes.ts:167",
+        "yudada-frontend/src/views/user/UserRegisterPage.vue:42",
+        "yudada-frontend/src/views/user/UserRegisterPage.vue:72"
+      ],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/logout",
+      "symbol": "userLogout",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 105,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/logout",
+          "symbol": "userLogoutUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 115,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/user/get/login",
+      "symbol": "getLoginUser",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 120,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/user/get/login",
+          "symbol": "getLoginUserUsingGet",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 47,
+          "ui_references": [
+            "yudada-frontend/src/store/userStore.ts:3",
+            "yudada-frontend/src/store/userStore.ts:19"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/add",
+      "symbol": "addUser",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 137,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/add",
+          "symbol": "addUserUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 5,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/delete",
+      "symbol": "deleteUser",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 161,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/delete",
+          "symbol": "deleteUserUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 17,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminUserPage.vue:59",
+            "yudada-frontend/src/views/admin/AdminUserPage.vue:123"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/update",
+      "symbol": "updateUser",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 178,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/update",
+          "symbol": "updateUserUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 138,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/user/get",
+      "symbol": "getUserById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 199,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/user/get",
+          "symbol": "getUserByIdUsingGet",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 32,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "GET",
+      "path": "/user/get/vo",
+      "symbol": "getUserVOById",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 217,
+      "generated_clients": [
+        {
+          "http": "GET",
+          "path": "/user/get/vo",
+          "symbol": "getUserVoByIdUsingGet",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 55,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/list/page",
+      "symbol": "listUserByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 231,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/list/page",
+          "symbol": "listUserByPageUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 70,
+          "ui_references": [
+            "yudada-frontend/src/views/admin/AdminUserPage.vue:60",
+            "yudada-frontend/src/views/admin/AdminUserPage.vue:84"
+          ]
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/list/page/vo",
+      "symbol": "listUserVOByPage",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 249,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/list/page/vo",
+          "symbol": "listUserVoByPageUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 85,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    },
+    {
+      "http": "POST",
+      "path": "/user/update/my",
+      "symbol": "updateMyUser",
+      "source": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "line": 276,
+      "generated_clients": [
+        {
+          "http": "POST",
+          "path": "/user/update/my",
+          "symbol": "updateMyUserUsingPost",
+          "source": "yudada-frontend/src/api/userController.ts",
+          "line": 153,
+          "ui_references": []
+        }
+      ],
+      "direct_ui_references": [],
+      "disposition": "rewrite User business flow; REST contract in contracts.md",
+      "requires_decision": "none",
+      "step": "2/4",
+      "acceptance": "step 2/4 UI/API behavior, permissions and failure fixtures"
+    }
+  ],
+  "tables": [
+    {
+      "table": "user",
+      "fields": [
+        "id",
+        "userAccount",
+        "userPassword",
+        "unionId",
+        "mpOpenId",
+        "userName",
+        "userAvatar",
+        "userProfile",
+        "userRole",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 12,
+      "disposition": "rewrite PostgreSQL schema and versioned model; no data migration",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    },
+    {
+      "table": "app",
+      "fields": [
+        "id",
+        "appName",
+        "appDesc",
+        "appIcon",
+        "appType",
+        "scoringStrategy",
+        "reviewStatus",
+        "reviewMessage",
+        "reviewerId",
+        "reviewTime",
+        "userId",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 30,
+      "disposition": "rewrite PostgreSQL schema and versioned model; no data migration",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    },
+    {
+      "table": "question",
+      "fields": [
+        "id",
+        "questionContent",
+        "appId",
+        "userId",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 50,
+      "disposition": "rewrite PostgreSQL schema and versioned model; no data migration",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    },
+    {
+      "table": "scoring_result",
+      "fields": [
+        "id",
+        "resultName",
+        "resultDesc",
+        "resultPicture",
+        "resultProp",
+        "resultScoreRange",
+        "appId",
+        "userId",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 63,
+      "disposition": "rewrite PostgreSQL schema and versioned model; no data migration",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    },
+    {
+      "table": "user_answer",
+      "fields": [
+        "id",
+        "appId",
+        "appType",
+        "scoringStrategy",
+        "choices",
+        "resultId",
+        "resultName",
+        "resultDesc",
+        "resultPicture",
+        "resultScore",
+        "userId",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 80,
+      "disposition": "rewrite PostgreSQL schema and versioned model; no data migration",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    },
+    {
+      "table": "user_answer_0",
+      "fields": [
+        "id",
+        "appId",
+        "appType",
+        "scoringStrategy",
+        "choices",
+        "resultId",
+        "resultName",
+        "resultDesc",
+        "resultPicture",
+        "resultScore",
+        "userId",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 101,
+      "disposition": "consolidate into answers; no sharding until measured need",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    },
+    {
+      "table": "user_answer_1",
+      "fields": [
+        "id",
+        "appId",
+        "appType",
+        "scoringStrategy",
+        "choices",
+        "resultId",
+        "resultName",
+        "resultDesc",
+        "resultPicture",
+        "resultScore",
+        "userId",
+        "createTime",
+        "updateTime",
+        "isDelete"
+      ],
+      "source": "yudada-backend/sql/create_table.sql",
+      "line": 122,
+      "disposition": "consolidate into answers; no sharding until measured need",
+      "requires_decision": "none",
+      "step": "2/3/4"
+    }
+  ],
+  "web_routes": [
+    {
+      "path": "/",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 24,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/add/app",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 29,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/add/app/:id",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 34,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/add/question/:appId",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 43,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/add/scoring_result/:appId",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 52,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/app/detail/:id",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 61,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/answer/do/:appId",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 70,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/answer/result/:id",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 80,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/answer/my",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 90,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/admin/user",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 98,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/admin/app",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 106,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/admin/question",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 114,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/admin/scoring_result",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 122,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/admin/user_answer",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 130,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/app_statistic",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 138,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/noAuth",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 146,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/hide",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 154,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/user",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 162,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/user/login",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 167,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    },
+    {
+      "path": "/user/register",
+      "source": "yudada-frontend/src/router/routes.ts",
+      "line": 172,
+      "disposition": "rewrite Next.js route; omit /hide alias by D7",
+      "step": "2/3/4/6a"
+    }
+  ],
+  "mini_pages": [
+    "mbti-test-mini/src/pages/result/index.tsx",
+    "mbti-test-mini/src/pages/doQuestion/index.tsx",
+    "mbti-test-mini/src/pages/index/index.tsx",
+    "mbti-test-mini/src/components/GlobalFooter/index.tsx"
+  ],
+  "license_paths": [],
+  "decisions": {
+    "D7": "approved by Will 2026-10-01"
+  }
+}

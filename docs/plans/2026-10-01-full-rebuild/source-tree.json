@@ -1,0 +1,2792 @@
+{
+  "sha": "28d475ded5c0eb646eff9c9bc2c40065e7c05df6",
+  "url": "https://api.github.com/repos/liyupi/yudada/git/trees/28d475ded5c0eb646eff9c9bc2c40065e7c05df6",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c00d8f6c4a7cedb3761d6e28cbeb651051c347",
+      "size": 3230,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/62c00d8f6c4a7cedb3761d6e28cbeb651051c347"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf7806a066c10580e3b0e8829264e5048a9791d",
+      "size": 12334,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/eaf7806a066c10580e3b0e8829264e5048a9791d"
+    },
+    {
+      "path": "mbti-test-mini",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18476fadd1bff65b95f79ace23352e26c4174b76",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/18476fadd1bff65b95f79ace23352e26c4174b76"
+    },
+    {
+      "path": "mbti-test-mini/.editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5760be5836966242237ac86fd439b632b34f58e3",
+      "size": 197,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5760be5836966242237ac86fd439b632b34f58e3"
+    },
+    {
+      "path": "mbti-test-mini/.eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9103331cbd67598c893c832bbf84f1318a20acf",
+      "size": 148,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f9103331cbd67598c893c832bbf84f1318a20acf"
+    },
+    {
+      "path": "mbti-test-mini/babel.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3acb812f5a98c4dbdd88485ad1293053e044755",
+      "size": 231,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f3acb812f5a98c4dbdd88485ad1293053e044755"
+    },
+    {
+      "path": "mbti-test-mini/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1863b1391795ac1a001f060e5b890ed9dde79498",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/1863b1391795ac1a001f060e5b890ed9dde79498"
+    },
+    {
+      "path": "mbti-test-mini/config/dev.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d562e3f2fd1f2f1a07e8b611d05ef19136e97b25",
+      "size": 146,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d562e3f2fd1f2f1a07e8b611d05ef19136e97b25"
+    },
+    {
+      "path": "mbti-test-mini/config/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b75983b1e18c273b1902047a82c9420ca58013b",
+      "size": 1681,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5b75983b1e18c273b1902047a82c9420ca58013b"
+    },
+    {
+      "path": "mbti-test-mini/config/prod.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1486661d96c479547f9690beec9a9e3d4da87d4",
+      "size": 1232,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e1486661d96c479547f9690beec9a9e3d4da87d4"
+    },
+    {
+      "path": "mbti-test-mini/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0538416bf6a2d783a79affff9fb926ef054e26e",
+      "size": 1384669,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a0538416bf6a2d783a79affff9fb926ef054e26e"
+    },
+    {
+      "path": "mbti-test-mini/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3a0051ec10c52c86fae947d6dba16a297e92dce",
+      "size": 2662,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f3a0051ec10c52c86fae947d6dba16a297e92dce"
+    },
+    {
+      "path": "mbti-test-mini/project.config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21be1053ad6f8bf8485bdfc80c2ded8bc85fe4f",
+      "size": 896,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d21be1053ad6f8bf8485bdfc80c2ded8bc85fe4f"
+    },
+    {
+      "path": "mbti-test-mini/project.private.config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab17093d6b447acc9d8e8cef58d18dbe59c49d4",
+      "size": 342,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9ab17093d6b447acc9d8e8cef58d18dbe59c49d4"
+    },
+    {
+      "path": "mbti-test-mini/project.tt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f6c365194e2c8671d3f62f69f31ce2742b2b091",
+      "size": 249,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9f6c365194e2c8671d3f62f69f31ce2742b2b091"
+    },
+    {
+      "path": "mbti-test-mini/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70abaaa50e116442f959dfe974656c50fabb9983",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/70abaaa50e116442f959dfe974656c50fabb9983"
+    },
+    {
+      "path": "mbti-test-mini/src/app.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e58d6a8e2af95fce1ad664973e0ce8140c505f7",
+      "size": 303,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0e58d6a8e2af95fce1ad664973e0ce8140c505f7"
+    },
+    {
+      "path": "mbti-test-mini/src/app.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab137629ac96e69f59358e8f2c2c2cfca30d21a7",
+      "size": 72,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ab137629ac96e69f59358e8f2c2c2cfca30d21a7"
+    },
+    {
+      "path": "mbti-test-mini/src/app.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa06c324e93ac17960ab888df59e3071d1a7f7f",
+      "size": 421,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3fa06c324e93ac17960ab888df59e3071d1a7f7f"
+    },
+    {
+      "path": "mbti-test-mini/src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c32d540f70b3554f98bc7a0109c495e9eeb53f9",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/8c32d540f70b3554f98bc7a0109c495e9eeb53f9"
+    },
+    {
+      "path": "mbti-test-mini/src/assets/headerBg.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68d1f4cdc59cb8355c3587b5c0c07fee03e5255",
+      "size": 33442,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d68d1f4cdc59cb8355c3587b5c0c07fee03e5255"
+    },
+    {
+      "path": "mbti-test-mini/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "581374541a9d0f8977ee7979c779d09861cc2a89",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/581374541a9d0f8977ee7979c779d09861cc2a89"
+    },
+    {
+      "path": "mbti-test-mini/src/components/GlobalFooter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "513bfc5619aaa0d8f35a83f77aee37c3331a47c0",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/513bfc5619aaa0d8f35a83f77aee37c3331a47c0"
+    },
+    {
+      "path": "mbti-test-mini/src/components/GlobalFooter/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b89a8d245f82e9fac2b4f5738b78c20bc5661daa",
+      "size": 98,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b89a8d245f82e9fac2b4f5738b78c20bc5661daa"
+    },
+    {
+      "path": "mbti-test-mini/src/components/GlobalFooter/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d584a77a1d3a3e6d54edf14b277de361c8e9323",
+      "size": 357,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0d584a77a1d3a3e6d54edf14b277de361c8e9323"
+    },
+    {
+      "path": "mbti-test-mini/src/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35b1370f30957ba9bf725dd60fe6450a18cadedb",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/35b1370f30957ba9bf725dd60fe6450a18cadedb"
+    },
+    {
+      "path": "mbti-test-mini/src/data/question_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb9fee9f94a94422557502d308cc5272cc3d0e0",
+      "size": 3869,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/cbb9fee9f94a94422557502d308cc5272cc3d0e0"
+    },
+    {
+      "path": "mbti-test-mini/src/data/questions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22dc5187ea21f7fca7709f3a8cadc4341229e331",
+      "size": 2689,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/22dc5187ea21f7fca7709f3a8cadc4341229e331"
+    },
+    {
+      "path": "mbti-test-mini/src/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc1548bba6067b9cb51d4cf5a169e63a2ecfa54d",
+      "size": 647,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/bc1548bba6067b9cb51d4cf5a169e63a2ecfa54d"
+    },
+    {
+      "path": "mbti-test-mini/src/pages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97afd7681750057dfaef480792b29542945f72b8",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/97afd7681750057dfaef480792b29542945f72b8"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/doQuestion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2f3136495b9fcb7048eef4b8954bec64218302a",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/c2f3136495b9fcb7048eef4b8954bec64218302a"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/doQuestion/index.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e9c4b962f38544145c684fb8bae41936c25732",
+      "size": 69,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a9e9c4b962f38544145c684fb8bae41936c25732"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/doQuestion/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0053933508120f7ee2830bc4954de3f66c3e94e",
+      "size": 156,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d0053933508120f7ee2830bc4954de3f66c3e94e"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/doQuestion/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec31e284b47a0050b6c428334e09f156a786f4c3",
+      "size": 2618,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ec31e284b47a0050b6c428334e09f156a786f4c3"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/index",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28969060807f7f2aa0c8b2df10be9682ccded5a0",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/28969060807f7f2aa0c8b2df10be9682ccded5a0"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/index/index.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e9c4b962f38544145c684fb8bae41936c25732",
+      "size": 69,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a9e9c4b962f38544145c684fb8bae41936c25732"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/index/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f28f1bc832e6ffea7cebc43fe5d49b02ffd0f3",
+      "size": 217,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/88f28f1bc832e6ffea7cebc43fe5d49b02ffd0f3"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/index/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa80d628c245de678d74b4dc66b6ba2c9f3f846f",
+      "size": 1039,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/fa80d628c245de678d74b4dc66b6ba2c9f3f846f"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/result",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55a9e6cf73e7e7f669c7fff4c209fd9d7d859bd7",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/55a9e6cf73e7e7f669c7fff4c209fd9d7d859bd7"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/result/index.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a54c2666afe33948f1a588763ae9d19ebb6d9ed",
+      "size": 78,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8a54c2666afe33948f1a588763ae9d19ebb6d9ed"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/result/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "906dc1a3e43ff124b0829d1b899b8ccd02e8668d",
+      "size": 218,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/906dc1a3e43ff124b0829d1b899b8ccd02e8668d"
+    },
+    {
+      "path": "mbti-test-mini/src/pages/result/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50dfd648f7b22c006a68b825c07a2117ac2de33",
+      "size": 1471,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f50dfd648f7b22c006a68b825c07a2117ac2de33"
+    },
+    {
+      "path": "mbti-test-mini/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e7b435badd281b3971af8401a21f6eb6061d2aa",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/0e7b435badd281b3971af8401a21f6eb6061d2aa"
+    },
+    {
+      "path": "mbti-test-mini/src/utils/bizUtils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b340647a8226e3ed8b8d9edef399078c6552583",
+      "size": 3262,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8b340647a8226e3ed8b8d9edef399078c6552583"
+    },
+    {
+      "path": "mbti-test-mini/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fc6d47576e022bc5a1498731a5947dc230e4e3b",
+      "size": 644,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0fc6d47576e022bc5a1498731a5947dc230e4e3b"
+    },
+    {
+      "path": "mbti-test-mini/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9cf4b8f62952d7b31e2c9689d0a6b49c04dc05e",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a9cf4b8f62952d7b31e2c9689d0a6b49c04dc05e"
+    },
+    {
+      "path": "mbti-test-mini/types/custom.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82dcc9614f7befa81f4964689968ec38d808d28a",
+      "size": 196,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/82dcc9614f7befa81f4964689968ec38d808d28a"
+    },
+    {
+      "path": "mbti-test-mini/types/global.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b90d4bcaf5973055ee86bf1bd50f9c4c30ef68e9",
+      "size": 436,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b90d4bcaf5973055ee86bf1bd50f9c4c30ef68e9"
+    },
+    {
+      "path": "yudada-backend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c8786b320acdd7312ecb13e8f1cc16fc4f9141c",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/9c8786b320acdd7312ecb13e8f1cc16fc4f9141c"
+    },
+    {
+      "path": "yudada-backend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85544b38044efca0ea2ad557cd84cee7663c845d",
+      "size": 2664,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/85544b38044efca0ea2ad557cd84cee7663c845d"
+    },
+    {
+      "path": "yudada-backend/.mvn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c304989acc270ebdf25cfbe7e0dd2e5ae7890ca",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/6c304989acc270ebdf25cfbe7e0dd2e5ae7890ca"
+    },
+    {
+      "path": "yudada-backend/.mvn/wrapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e80934df7a78608b641d3241461c25566a39fbdb",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/e80934df7a78608b641d3241461c25566a39fbdb"
+    },
+    {
+      "path": "yudada-backend/.mvn/wrapper/maven-wrapper.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f266f417ee0efd930c992595190a97cfafcefdb",
+      "size": 233,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3f266f417ee0efd930c992595190a97cfafcefdb"
+    },
+    {
+      "path": "yudada-backend/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b8240ca8666b2e4ab862a827ccc363638c67942",
+      "size": 619,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7b8240ca8666b2e4ab862a827ccc363638c67942"
+    },
+    {
+      "path": "yudada-backend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e2d78da1bca15ba85de3e0bb86d40daa295183",
+      "size": 4504,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/06e2d78da1bca15ba85de3e0bb86d40daa295183"
+    },
+    {
+      "path": "yudada-backend/doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd8771de6ec98982f49daed9504b4303d7ec81f8",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/cd8771de6ec98982f49daed9504b4303d7ec81f8"
+    },
+    {
+      "path": "yudada-backend/doc/swagger.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0518706c73e1ba3d715ae458144111605e0b28fa",
+      "size": 455614,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0518706c73e1ba3d715ae458144111605e0b28fa"
+    },
+    {
+      "path": "yudada-backend/mvnw",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a8fb2282df5b8f7263470a5a2dc0e196f35f35f",
+      "size": 10284,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8a8fb2282df5b8f7263470a5a2dc0e196f35f35f"
+    },
+    {
+      "path": "yudada-backend/mvnw.cmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d8ab018eaf11d9b3a4a90e7818ace373dfbb380",
+      "size": 6734,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/1d8ab018eaf11d9b3a4a90e7818ace373dfbb380"
+    },
+    {
+      "path": "yudada-backend/pom.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f80aabcf4e6441d9d04c466d0b175be97d1c735",
+      "size": 5990,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8f80aabcf4e6441d9d04c466d0b175be97d1c735"
+    },
+    {
+      "path": "yudada-backend/sql",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9870dc64a8d8885f5ac4b26977100c6a62583245",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/9870dc64a8d8885f5ac4b26977100c6a62583245"
+    },
+    {
+      "path": "yudada-backend/sql/create_table.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21f006e3e657159dbaac451185d802743deff9df",
+      "size": 9317,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/21f006e3e657159dbaac451185d802743deff9df"
+    },
+    {
+      "path": "yudada-backend/sql/init_data.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2d2b0bb3843e93e7bd40b9235c585ff23dd321",
+      "size": 18224,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5f2d2b0bb3843e93e7bd40b9235c585ff23dd321"
+    },
+    {
+      "path": "yudada-backend/sql/post_es_mapping.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "655272dd4c2edd5208a469976614adae621c38d9",
+      "size": 961,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/655272dd4c2edd5208a469976614adae621c38d9"
+    },
+    {
+      "path": "yudada-backend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd99ca7a5a494d1b7e38c55cab00e7d566540722",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/fd99ca7a5a494d1b7e38c55cab00e7d566540722"
+    },
+    {
+      "path": "yudada-backend/src/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e26625e6a500f82117f7b432fc1912cc63c74a0",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/1e26625e6a500f82117f7b432fc1912cc63c74a0"
+    },
+    {
+      "path": "yudada-backend/src/main/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c26cc880b4283061deaf9cac049eca5d7318cfd6",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/c26cc880b4283061deaf9cac049eca5d7318cfd6"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47e5c8090f01d0587e8a20a694f18686faeb1cff",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/47e5c8090f01d0587e8a20a694f18686faeb1cff"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2e1406cf7ac366fe32572842156735958d66b8f",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/e2e1406cf7ac366fe32572842156735958d66b8f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57547fd4e18add0de735333edff6510522fb5db8",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/57547fd4e18add0de735333edff6510522fb5db8"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/MainApplication.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199a462d433e9f6ad7af7bf945d70433085179f4",
+      "size": 945,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/199a462d433e9f6ad7af7bf945d70433085179f4"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/annotation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff951e7df6b712ed11f6429d221e9cd3abab4463",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/ff951e7df6b712ed11f6429d221e9cd3abab4463"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/annotation/AuthCheck.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3a044b08abba3bfff07af2282b649c254c20cf",
+      "size": 558,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9f3a044b08abba3bfff07af2282b649c254c20cf"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/aop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a8e16b3d931cd9cb767b0f89b046333925a4eea",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/2a8e16b3d931cd9cb767b0f89b046333925a4eea"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/aop/AuthInterceptor.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af61b086efd1ef9811263e0debf5fe761b1efd34",
+      "size": 2607,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/af61b086efd1ef9811263e0debf5fe761b1efd34"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/aop/LogInterceptor.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c78f462cff2ba72cbbcd2b556f13fdff8a4cad35",
+      "size": 2108,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c78f462cff2ba72cbbcd2b556f13fdff8a4cad35"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dccc124e40a4a67f53e9a1d6bab1a389e1720c57",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/dccc124e40a4a67f53e9a1d6bab1a389e1720c57"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/BaseResponse.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c035529e32b892f3f1ab1258f6f642f0af5487f",
+      "size": 746,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0c035529e32b892f3f1ab1258f6f642f0af5487f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/DeleteRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad60842db0c2fa85c5647a6d78c9ecd71be79f02",
+      "size": 404,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ad60842db0c2fa85c5647a6d78c9ecd71be79f02"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/ErrorCode.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0bc19cf3fc76a7dd63ae5d3e9e9c8e8f73af4a3",
+      "size": 916,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a0bc19cf3fc76a7dd63ae5d3e9e9c8e8f73af4a3"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/PageRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0698c4e5ac801dfe2e372142e4fde50ffe715c2",
+      "size": 614,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a0698c4e5ac801dfe2e372142e4fde50ffe715c2"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/ResultUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a6b8c73487ee8600dea5a85ba44f3c06352261",
+      "size": 1062,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e3a6b8c73487ee8600dea5a85ba44f3c06352261"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/ReviewRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af19e878aa3d045540e436469b54e095db5c5075",
+      "size": 441,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/af19e878aa3d045540e436469b54e095db5c5075"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d2efa930d26d895dd73a6c30e44bcfadf2bf00a",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/4d2efa930d26d895dd73a6c30e44bcfadf2bf00a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/AiConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a06858be796ce77b0e476a41d43d86eb0a3076b",
+      "size": 557,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2a06858be796ce77b0e476a41d43d86eb0a3076b"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/CorsConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e46c1faaff2050d507cd90e695960b32739a6ffe",
+      "size": 997,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e46c1faaff2050d507cd90e695960b32739a6ffe"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/CosClientConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18ee19dd625de4385ef74ef62dd862291e1e7550",
+      "size": 1416,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/18ee19dd625de4385ef74ef62dd862291e1e7550"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/JsonConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "879ee72c419e06cb05a44864c6fdc5e2ea95886e",
+      "size": 1112,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/879ee72c419e06cb05a44864c6fdc5e2ea95886e"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/MyBatisPlusConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4f8bbb539e84e35fa6bdc614dd0e7d667fe3f7",
+      "size": 916,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/df4f8bbb539e84e35fa6bdc614dd0e7d667fe3f7"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/RedissonConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e976aabcf0d9dfe17a4fb7abcd2d9302c56d5c5",
+      "size": 910,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5e976aabcf0d9dfe17a4fb7abcd2d9302c56d5c5"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/config/VipSchedulerConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc8cffed63aff04b0dc8580ba22b96b297b7ef78",
+      "size": 1202,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/bc8cffed63aff04b0dc8580ba22b96b297b7ef78"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0770539e530a6aea340a99e5da314e38e9e5f769",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/0770539e530a6aea340a99e5da314e38e9e5f769"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant/CommonConstant.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15c877ad3205119b672f6ce0c0daa27be398c9a3",
+      "size": 376,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/15c877ad3205119b672f6ce0c0daa27be398c9a3"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant/FileConstant.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "035962c822104ca14c5adaea63d985550c969ba8",
+      "size": 339,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/035962c822104ca14c5adaea63d985550c969ba8"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant/UserConstant.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3901ed28b262a8a6f44e86c764c39646bf32629",
+      "size": 563,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d3901ed28b262a8a6f44e86c764c39646bf32629"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21d689312a9bd063c6408cfd12389cf9cf9d68a1",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/21d689312a9bd063c6408cfd12389cf9cf9d68a1"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a25f44fc51b7fd52d647c19f170bc7cac063e659",
+      "size": 10543,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a25f44fc51b7fd52d647c19f170bc7cac063e659"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppStatisticController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79e84400b0043184ebf7fa0576157a44f03299a",
+      "size": 2107,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e79e84400b0043184ebf7fa0576157a44f03299a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/FileController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ceda27e9ea1bd5a8a31039d90450386a2304f88",
+      "size": 4082,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0ceda27e9ea1bd5a8a31039d90450386a2304f88"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61838bbda32a2671b79254c4891658bc0acc0564",
+      "size": 8879,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/61838bbda32a2671b79254c4891658bc0acc0564"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostFavourController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fb5cf369dd04522d930a3ece812e37693d56383",
+      "size": 4256,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6fb5cf369dd04522d930a3ece812e37693d56383"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostThumbController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7887104cf1e4102621690bc9e9b21df98dfb3465",
+      "size": 1892,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7887104cf1e4102621690bc9e9b21df98dfb3465"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060a8a10f7cb9fb3ea6daabb04b6c79f36a49b6c",
+      "size": 20269,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/060a8a10f7cb9fb3ea6daabb04b6c79f36a49b6c"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b698ccfb566e3a5f90990580804f491b2278cd39",
+      "size": 10716,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b698ccfb566e3a5f90990580804f491b2278cd39"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e853d80d299abbe09979383e52968c9909385c2",
+      "size": 11813,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2e853d80d299abbe09979383e52968c9909385c2"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b99142ab6bb616e1cc5ed81e071e9a4e70ed71d0",
+      "size": 10009,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b99142ab6bb616e1cc5ed81e071e9a4e70ed71d0"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb7bd4a7602b6ab2919fcc5f0cc2555724039034",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/fb7bd4a7602b6ab2919fcc5f0cc2555724039034"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception/BusinessException.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "802be34a425b6c422d2b753a1e21b0aed5a40915",
+      "size": 813,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/802be34a425b6c422d2b753a1e21b0aed5a40915"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception/GlobalExceptionHandler.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2405d24512a1a4e345a791e5b45d6ea20898303",
+      "size": 1047,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e2405d24512a1a4e345a791e5b45d6ea20898303"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception/ThrowUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8380ceb60a2d8af182129aa8de9bec463e7299",
+      "size": 1083,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3d8380ceb60a2d8af182129aa8de9bec463e7299"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/generate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "442eedad0a9389e757ee7504f5ef75e07a5a8813",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/442eedad0a9389e757ee7504f5ef75e07a5a8813"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/generate/CodeGenerator.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ff422c36f5f6b65d4e86921fa617ae926e4136",
+      "size": 5945,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/13ff422c36f5f6b65d4e86921fa617ae926e4136"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/manager",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "218785ced6c863d101d107957842bf79c671b8b6",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/218785ced6c863d101d107957842bf79c671b8b6"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/manager/AiManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c735bdf6d6f5d1599b934e9df8fe92356f828e3f",
+      "size": 4885,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c735bdf6d6f5d1599b934e9df8fe92356f828e3f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/manager/CosManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23c6bdb938ad424d54c176ca5ecf4faabf70c49f",
+      "size": 1391,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/23c6bdb938ad424d54c176ca5ecf4faabf70c49f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67d8cfb6f21be1eadf5ce8ab5ce9ea5e15b596d8",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/67d8cfb6f21be1eadf5ce8ab5ce9ea5e15b596d8"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/AppMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dfc69e142e5e7b87fadd5b107d8f22c52540376",
+      "size": 361,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8dfc69e142e5e7b87fadd5b107d8f22c52540376"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/PostFavourMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f03a3257f42f65aab4965b18553f4fa1ec6228",
+      "size": 995,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e8f03a3257f42f65aab4965b18553f4fa1ec6228"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/PostMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a6f79a18600338de6efd53199821059693ee09",
+      "size": 539,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/33a6f79a18600338de6efd53199821059693ee09"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/PostThumbMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b02faf72441f8a762ae5cbbfe3b6fe542931fa7",
+      "size": 383,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3b02faf72441f8a762ae5cbbfe3b6fe542931fa7"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/QuestionMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2527d9a76b07f617e482c459dc027cedab0771e1",
+      "size": 386,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2527d9a76b07f617e482c459dc027cedab0771e1"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/ScoringResultMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b86f1ec9e49997ae2b26f12ec7c5c05662188e45",
+      "size": 418,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b86f1ec9e49997ae2b26f12ec7c5c05662188e45"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/UserAnswerMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945997114440b7db4f142ec9492c34e6b8e2a684",
+      "size": 1070,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/945997114440b7db4f142ec9492c34e6b8e2a684"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/UserMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9753d2b4068150f49e3cad2aa2d4110535c8b4b5",
+      "size": 362,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9753d2b4068150f49e3cad2aa2d4110535c8b4b5"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f42d23e73687b20978eb5a7f9194c0877f39be3",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/6f42d23e73687b20978eb5a7f9194c0877f39be3"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "689894bb148c75d0f2c12582f210b04c2732978b",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/689894bb148c75d0f2c12582f210b04c2732978b"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb6669a2a615734ff275a80c54085467345abcac",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/fb6669a2a615734ff275a80c54085467345abcac"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7723420bcd641ac4983c42087fe646dceea43f5e",
+      "size": 761,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7723420bcd641ac4983c42087fe646dceea43f5e"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppEditRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d0b61297d9aa454c67c74244e8f78656aa8918",
+      "size": 809,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/30d0b61297d9aa454c67c74244e8f78656aa8918"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e2bcf2fe68ae945108ed7aa52c3bab3a55666ad",
+      "size": 1367,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2e2bcf2fe68ae945108ed7aa52c3bab3a55666ad"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppUpdateRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8ce4f6aff254df8fc2e037d512067796d3b3eed",
+      "size": 1143,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c8ce4f6aff254df8fc2e037d512067796d3b3eed"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/file",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5415679d70d493c97602fbc91e52817abe84cdc",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a5415679d70d493c97602fbc91e52817abe84cdc"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/file/UploadFileRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639901d320cf5c6ebbbe37f486b9e0993766a086",
+      "size": 429,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/639901d320cf5c6ebbbe37f486b9e0993766a086"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "968280881d5b5620903735b17e4fb82e1a4d35f8",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/968280881d5b5620903735b17e4fb82e1a4d35f8"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03929f914f52dd203a805cea6706d1a751ac65e9",
+      "size": 572,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/03929f914f52dd203a805cea6706d1a751ac65e9"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostEditRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8057c4d91185c41ac1af940f66e9e40f2c077b84",
+      "size": 621,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8057c4d91185c41ac1af940f66e9e40f2c077b84"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57b00c4534647b8b252f9c94d763a381f605e73e",
+      "size": 1086,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/57b00c4534647b8b252f9c94d763a381f605e73e"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostUpdateRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab6b36cde6fafc4189142271e3e26be8fff83932",
+      "size": 623,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ab6b36cde6fafc4189142271e3e26be8fff83932"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postfavour",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17dfc205ce634f536f2550c7e4a189609579c8bd",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/17dfc205ce634f536f2550c7e4a189609579c8bd"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postfavour/PostFavourAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5113c293fc137131d5ee475ce2c0c2f4a67df6bc",
+      "size": 457,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5113c293fc137131d5ee475ce2c0c2f4a67df6bc"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postfavour/PostFavourQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a15e32919ff10173ddd8277cfa480c1ed6b7734d",
+      "size": 729,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a15e32919ff10173ddd8277cfa480c1ed6b7734d"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postthumb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3243dc01e3c05a00833a98553d6757bbcd933735",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/3243dc01e3c05a00833a98553d6757bbcd933735"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postthumb/PostThumbAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4db874c2b88aa4fedc5927d3d93193127970cb1a",
+      "size": 440,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/4db874c2b88aa4fedc5927d3d93193127970cb1a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46c05af00e7b2a92cbe1df9174f79fa07f97be05",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/46c05af00e7b2a92cbe1df9174f79fa07f97be05"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/AiGenerateQuestionRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84685c3292c20d38c78e971b28fdf3f81ae06ec",
+      "size": 576,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e84685c3292c20d38c78e971b28fdf3f81ae06ec"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4d9efd71132ea4a93e29087f5517edc144985f",
+      "size": 698,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7a4d9efd71132ea4a93e29087f5517edc144985f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionAnswerDTO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdba29357a81875a74c978e373a9e658019c431",
+      "size": 426,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6fdba29357a81875a74c978e373a9e658019c431"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionContentDTO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1e4673faecfdb93d3ba089a49389e6c47807ca",
+      "size": 629,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9a1e4673faecfdb93d3ba089a49389e6c47807ca"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionEditRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e982af12c1b565dbefb61ccd0fd74ab91b9f521",
+      "size": 689,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5e982af12c1b565dbefb61ccd0fd74ab91b9f521"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17ed0489b42dc74cba1c7405159e2cd7a66ffe0a",
+      "size": 979,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/17ed0489b42dc74cba1c7405159e2cd7a66ffe0a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionUpdateRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0b50482084185d55c777027b236ba724b9d4c8c",
+      "size": 565,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f0b50482084185d55c777027b236ba724b9d4c8c"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b3e01e0e9ac8ebcad475dd2c766796b0a5fac24",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/1b3e01e0e9ac8ebcad475dd2c766796b0a5fac24"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "728c30652a30eabd26e5a8d60bea0801f4e747f0",
+      "size": 1065,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/728c30652a30eabd26e5a8d60bea0801f4e747f0"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultEditRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9358fdcd8dd9cf83c5181fc4f459bf9ae892ce9",
+      "size": 1056,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a9358fdcd8dd9cf83c5181fc4f459bf9ae892ce9"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1581203bfad566b5b5772d91aa79258ce6ca3ffa",
+      "size": 1423,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/1581203bfad566b5b5772d91aa79258ce6ca3ffa"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultUpdateRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f53d9f7b3073abf9d4f4cf1501506d19dc9b2c40",
+      "size": 932,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f53d9f7b3073abf9d4f4cf1501506d19dc9b2c40"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/statistic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94fac0dd270d6cb1bb3dd02be3680eb2faeaf01f",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/94fac0dd270d6cb1bb3dd02be3680eb2faeaf01f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/statistic/AppAnswerCountDTO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b9a308e0b6805f63a7c4e2dd3aa7636d5a7674a",
+      "size": 251,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/1b9a308e0b6805f63a7c4e2dd3aa7636d5a7674a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/statistic/AppAnswerResultCountDTO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a87006af43c14bf1574df89391e77665a5995de",
+      "size": 250,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/4a87006af43c14bf1574df89391e77665a5995de"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e53ca41100b2e2e7a448710b15977a157c297fc",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/7e53ca41100b2e2e7a448710b15977a157c297fc"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c828d744c113cd73025640000a9e3770dc300b",
+      "size": 647,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/81c828d744c113cd73025640000a9e3770dc300b"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserLoginRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c77f7d5402d05f0fb79135cebe6895b17fcb57f6",
+      "size": 459,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c77f7d5402d05f0fb79135cebe6895b17fcb57f6"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d801254e96f06294ccd2ea12963c185f97ff291",
+      "size": 901,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2d801254e96f06294ccd2ea12963c185f97ff291"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserRegisterRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72d3ffa50ff9ec7824803035d686307fc311eaab",
+      "size": 500,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/72d3ffa50ff9ec7824803035d686307fc311eaab"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserUpdateMyRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2f12fc1c0227f56ab6b6b0f4d1a780a846c869",
+      "size": 585,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ea2f12fc1c0227f56ab6b6b0f4d1a780a846c869"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserUpdateRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "102e092ebcb551f41fb5a51693d192070e721b80",
+      "size": 701,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/102e092ebcb551f41fb5a51693d192070e721b80"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4a473af318a9159929c8ab8e63a472fc7561f0d",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/f4a473af318a9159929c8ab8e63a472fc7561f0d"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerAddRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922f7f283a29e13adbf0ed1b70077f6b82042f2a",
+      "size": 671,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/922f7f283a29e13adbf0ed1b70077f6b82042f2a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerEditRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0173aabdd2a17afaebb77aa50747eebf43c015e2",
+      "size": 716,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0173aabdd2a17afaebb77aa50747eebf43c015e2"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerQueryRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd956df98825a5b55686b14cb28e54b68caf2d38",
+      "size": 1569,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/dd956df98825a5b55686b14cb28e54b68caf2d38"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerUpdateRequest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e63e764e85edf4f243468e4763fdd839676b3da7",
+      "size": 614,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e63e764e85edf4f243468e4763fdd839676b3da7"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66dc3438a6b20a4da1f2570f1453f53b581c45e3",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/66dc3438a6b20a4da1f2570f1453f53b581c45e3"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/App.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0699fa580680a78be00d451ed0b2c961310d2f61",
+      "size": 1415,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0699fa580680a78be00d451ed0b2c961310d2f61"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/Post.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cfd0e8ffea3a5a32a1a98e8592db4c475c71352",
+      "size": 1373,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5cfd0e8ffea3a5a32a1a98e8592db4c475c71352"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/PostFavour.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7666073cb57ed9352f3c381d075eb4c0cd85b697",
+      "size": 997,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7666073cb57ed9352f3c381d075eb4c0cd85b697"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/PostThumb.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bfbed122a3b7bfdeb65f8ed1c6df29b5ef7c3b2",
+      "size": 994,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5bfbed122a3b7bfdeb65f8ed1c6df29b5ef7c3b2"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/Question.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b5e1133a8d11d0c72a0d35e903b323a12d89d1c",
+      "size": 882,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8b5e1133a8d11d0c72a0d35e903b323a12d89d1c"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/ScoringResult.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2af7b5b6116b6c7bdde961c96596c8946234e842",
+      "size": 1268,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2af7b5b6116b6c7bdde961c96596c8946234e842"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/User.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f182c4fe5c838f4999dab918b9ee91be462673",
+      "size": 1557,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e4f182c4fe5c838f4999dab918b9ee91be462673"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/UserAnswer.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f79f943540a3d7e0ca3d4c4ced5a14537dd4bf5",
+      "size": 1441,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3f79f943540a3d7e0ca3d4c4ced5a14537dd4bf5"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a32abe3db1812085e1e9ade1085938358b6993c3",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a32abe3db1812085e1e9ade1085938358b6993c3"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/AppScoringStrategyEnum.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bdf9a329cc1e799e3cf1b4f36f9d1efc4d3e959",
+      "size": 1363,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0bdf9a329cc1e799e3cf1b4f36f9d1efc4d3e959"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/AppTypeEnum.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe5678e5ad06e1985655f0f16793057f13f3f3f",
+      "size": 1316,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ebe5678e5ad06e1985655f0f16793057f13f3f3f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/FileUploadBizEnum.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58b3d7e87d88c58ecdcbc95ea64ec82e6ac4524f",
+      "size": 1481,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/58b3d7e87d88c58ecdcbc95ea64ec82e6ac4524f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/ReviewStatusEnum.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf35c0cd8a4c5b4c3eb151e52b92fc1de5466fc1",
+      "size": 1363,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/cf35c0cd8a4c5b4c3eb151e52b92fc1de5466fc1"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/UserRoleEnum.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d572bc01e8c389b23a5bf897ed1070ee2cc727de",
+      "size": 1368,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d572bc01e8c389b23a5bf897ed1070ee2cc727de"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a472f46f99ed37a42181691bc98eca427be435b0",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a472f46f99ed37a42181691bc98eca427be435b0"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/AppVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc31d03898005307dec5411a75d0f5b87682cf76",
+      "size": 2168,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/dc31d03898005307dec5411a75d0f5b87682cf76"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/LoginUserVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186546bc1e69e9cfd015546373488c5964a4f87e",
+      "size": 874,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/186546bc1e69e9cfd015546373488c5964a4f87e"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/PostVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f50dd92e2136c90e5cfc0b8d87e7ed020a72984",
+      "size": 2020,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5f50dd92e2136c90e5cfc0b8d87e7ed020a72984"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/QuestionVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b616454ce31842cee0dde6459a758fda74de28c0",
+      "size": 2199,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b616454ce31842cee0dde6459a758fda74de28c0"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/ScoringResultVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c46a634204250b90f0972ef2da89fbdc550b202",
+      "size": 2426,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3c46a634204250b90f0972ef2da89fbdc550b202"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/UserAnswerVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "775cf553e4e1f60785a80eee68a7c0407f975216",
+      "size": 2504,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/775cf553e4e1f60785a80eee68a7c0407f975216"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/UserVO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b559c433e342da8db93cddad056ef44ad85703c3",
+      "size": 786,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b559c433e342da8db93cddad056ef44ad85703c3"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3091758d129f53a84da037b7011437cde7bca31",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a3091758d129f53a84da037b7011437cde7bca31"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/AiTestScoringStrategy.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff7b6c5af5550e1daa5c83f46b55ce6a278eef2",
+      "size": 6609,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/eff7b6c5af5550e1daa5c83f46b55ce6a278eef2"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/CustomScoreScoringStrategy.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "402998f38ab3e9523ca118615b52f4f2e63a594e",
+      "size": 3755,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/402998f38ab3e9523ca118615b52f4f2e63a594e"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/CustomTestScoringStrategy.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ca467be855ec5b0aa1f8e4afe5019b136e6c1a",
+      "size": 4478,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/90ca467be855ec5b0aa1f8e4afe5019b136e6c1a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategy.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "551c13eaf2e35ae05f93710acb8cfae39286f2be",
+      "size": 543,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/551c13eaf2e35ae05f93710acb8cfae39286f2be"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategyConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b3fc6504c42199f77f83c7ca10f32c24c260c6",
+      "size": 512,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/99b3fc6504c42199f77f83c7ca10f32c24c260c6"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategyContext.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f1b3001b579d15fdcd04f5f5cadeb89623d8905",
+      "size": 2073,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6f1b3001b579d15fdcd04f5f5cadeb89623d8905"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategyExecutor.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f39b7349fbd9d9b3b6e126a47c7318605932a0c",
+      "size": 1656,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0f39b7349fbd9d9b3b6e126a47c7318605932a0c"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48ca3164f024b580b3d418f3db3f6e7bbc8f74b4",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/48ca3164f024b580b3d418f3db3f6e7bbc8f74b4"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/AppService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82d518bf17c57750554337de1346c88bfe785515",
+      "size": 1305,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/82d518bf17c57750554337de1346c88bfe785515"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/PostFavourService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "165ba6bf4a0b4f630bd6e44a4a342e18cf078604",
+      "size": 1237,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/165ba6bf4a0b4f630bd6e44a4a342e18cf078604"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/PostService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "724b6ca68c925473c2ca8c5eeaf15af0bab3e053",
+      "size": 1283,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/724b6ca68c925473c2ca8c5eeaf15af0bab3e053"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/PostThumbService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce7e45f29b1acb4552fdc8885652eb74af4e928b",
+      "size": 734,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ce7e45f29b1acb4552fdc8885652eb74af4e928b"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/QuestionService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95aafa14c06404df7ae526483adce42f4b6b15f9",
+      "size": 1425,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/95aafa14c06404df7ae526483adce42f4b6b15f9"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/ScoringResultService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b274d827fdc3520dc134590d9f77700a17cb98fc",
+      "size": 1563,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b274d827fdc3520dc134590d9f77700a17cb98fc"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/UserAnswerService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "565fd354384c452c2d75492dcfce955abe808e65",
+      "size": 1491,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/565fd354384c452c2d75492dcfce955abe808e65"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/UserService.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fa181873c1be53a9a3871ef495ff02389366c47",
+      "size": 2467,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/1fa181873c1be53a9a3871ef495ff02389366c47"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a2bb6374d43d075de65bf551924c5d9243c16f7",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/2a2bb6374d43d075de65bf551924c5d9243c16f7"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/AppServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d6fee28bab1c33196b1b5061b698a20ea5baf6",
+      "size": 8184,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/65d6fee28bab1c33196b1b5061b698a20ea5baf6"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/PostFavourServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35722c51dcffafb9da6a480f21d8be8d79aa5e62",
+      "size": 3935,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/35722c51dcffafb9da6a480f21d8be8d79aa5e62"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/PostServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea18bf8f3d75f2c8c47984fb6b1cc3e78b3d04a",
+      "size": 8561,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7ea18bf8f3d75f2c8c47984fb6b1cc3e78b3d04a"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/PostThumbServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14548c4a2e32a949936a4faabf49ae6a69f51f5b",
+      "size": 3421,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/14548c4a2e32a949936a4faabf49ae6a69f51f5b"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/QuestionServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c42c6cc6b6005b0cf744c9744f0e6d409365107",
+      "size": 6557,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6c42c6cc6b6005b0cf744c9744f0e6d409365107"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/ScoringResultServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819ebfd4220da7d78b986c1663ae8b7d64e8ffab",
+      "size": 8098,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/819ebfd4220da7d78b986c1663ae8b7d64e8ffab"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/UserAnswerServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcbfa5f8b5950b7972f50686a48d6979c3a028bb",
+      "size": 8043,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/bcbfa5f8b5950b7972f50686a48d6979c3a028bb"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/UserServiceImpl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f3fba7619520507dfec478d01749c16f20c959",
+      "size": 9067,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/63f3fba7619520507dfec478d01749c16f20c959"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0718943b6ea0c02de8d9fa367e4276a5fa22968f",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/0718943b6ea0c02de8d9fa367e4276a5fa22968f"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils/NetUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668f6f45a20ad40f45bd45bde3a78403b2a4b882",
+      "size": 1718,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/668f6f45a20ad40f45bd45bde3a78403b2a4b882"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils/SpringContextUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9471cf546eedc7a8b228dd6dfbcd4f904a18e14",
+      "size": 1518,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b9471cf546eedc7a8b228dd6dfbcd4f904a18e14"
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils/SqlUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0408fc9a7d729ef8f6bf0eca39379cf987b2992e",
+      "size": 606,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0408fc9a7d729ef8f6bf0eca39379cf987b2992e"
+    },
+    {
+      "path": "yudada-backend/src/main/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3da5863d67a35d125db3f649e56d172464ecc44",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/c3da5863d67a35d125db3f649e56d172464ecc44"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/META-INF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef7825b337d08fc933ed1de4af5b019589d989dd",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/ef7825b337d08fc933ed1de4af5b019589d989dd"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/META-INF/additional-spring-configuration-metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f9d165d099f2b58f448e0e8c26828c7070fa13",
+      "size": 868,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/46f9d165d099f2b58f448e0e8c26828c7070fa13"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/application-prod.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc8cb903345265987e23ee7a145a566cf1682b22",
+      "size": 687,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/bc8cb903345265987e23ee7a145a566cf1682b22"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/application-test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c436c590b53f0ab9bbcc8b84c02d80b9300d0f86",
+      "size": 512,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c436c590b53f0ab9bbcc8b84c02d80b9300d0f86"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/application.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e11b914f33c003ee304983fd470856dd56f97d3",
+      "size": 2876,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3e11b914f33c003ee304983fd470856dd56f97d3"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/banner.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24dbad533b696e1866d58aedf63f96bb4d5ad76",
+      "size": 103,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c24dbad533b696e1866d58aedf63f96bb4d5ad76"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba4a2aa24a7d6ff5a3b72f8766ed99cf5b5db5bd",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/ba4a2aa24a7d6ff5a3b72f8766ed99cf5b5db5bd"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/AppMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddfb17a29d6003e95ef2e8bf4eff1c721af8368",
+      "size": 1675,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/dddfb17a29d6003e95ef2e8bf4eff1c721af8368"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/PostFavourMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5d3d27cb65e3cfadb0e221bc57a6ffc27c8f6a",
+      "size": 1244,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8a5d3d27cb65e3cfadb0e221bc57a6ffc27c8f6a"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/PostMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209416ef81b363729624583dd8c344842868e600",
+      "size": 1518,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/209416ef81b363729624583dd8c344842868e600"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/PostThumbMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27ed15eba7d7e99e8072bbdd8b7214b9387e94d0",
+      "size": 956,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/27ed15eba7d7e99e8072bbdd8b7214b9387e94d0"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/QuestionMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b894e1ae731decb965bf24b27452cba04baa78ef",
+      "size": 1013,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b894e1ae731decb965bf24b27452cba04baa78ef"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/ScoringResultMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23b9bafc441568e8c77034f1f5dcbd7bc7b2681",
+      "size": 1420,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e23b9bafc441568e8c77034f1f5dcbd7bc7b2681"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/UserAnswerMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e91a4c6f5f2cb858b0fa29f83808e8ff335eca9",
+      "size": 1680,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9e91a4c6f5f2cb858b0fa29f83808e8ff335eca9"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/UserMapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fba8215f176b736c7fb3c0a6cb6db72cc28c512c",
+      "size": 1380,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/fba8215f176b736c7fb3c0a6cb6db72cc28c512c"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63fc53138312cec217e36967882bc9e7b2caea83",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/63fc53138312cec217e36967882bc9e7b2caea83"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/TemplateController.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5714b56614370342e5aa298c7475476e7553147",
+      "size": 10084,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e5714b56614370342e5aa298c7475476e7553147"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/TemplateService.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a688488cfdf8f7d8db7a2fce9bb77efe7191438b",
+      "size": 1559,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a688488cfdf8f7d8db7a2fce9bb77efe7191438b"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/TemplateServiceImpl.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3921f101021a8ee05cd2baabdea6c04db1845315",
+      "size": 10158,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3921f101021a8ee05cd2baabdea6c04db1845315"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d5747cca8ae5a8ebfd21a8cc6adddddf2fac0ec",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/0d5747cca8ae5a8ebfd21a8cc6adddddf2fac0ec"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/model/TemplateAddRequest.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a527ded6d366808698a10aaaf3eca27cabf78780",
+      "size": 604,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/a527ded6d366808698a10aaaf3eca27cabf78780"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/model/TemplateEditRequest.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f955c53f7e51a503d92dead7d701700c592ec0c5",
+      "size": 653,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f955c53f7e51a503d92dead7d701700c592ec0c5"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/model/TemplateQueryRequest.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff9b8eed46d80db879c370b038f074c4c187525",
+      "size": 967,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3ff9b8eed46d80db879c370b038f074c4c187525"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/model/TemplateUpdateRequest.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9188baf325afa99f510acaaa1ab5ae0d8312fe4f",
+      "size": 655,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9188baf325afa99f510acaaa1ab5ae0d8312fe4f"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/templates/model/TemplateVO.java.ftl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0428997412621f92184434e8a6685ab79fd97c",
+      "size": 1979,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9f0428997412621f92184434e8a6685ab79fd97c"
+    },
+    {
+      "path": "yudada-backend/src/main/resources/test_excel.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4c4c6e0f68fce96fcdd5e6457b54e9d6a3cb52",
+      "size": 9143,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9e4c4c6e0f68fce96fcdd5e6457b54e9d6a3cb52"
+    },
+    {
+      "path": "yudada-backend/src/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f2d9ef5cd39c74f4a4bffa27105bbb160780fa0",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/7f2d9ef5cd39c74f4a4bffa27105bbb160780fa0"
+    },
+    {
+      "path": "yudada-backend/src/test/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e1f3670ee1e87dd1bcd8d67c32691817888cee9",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/5e1f3670ee1e87dd1bcd8d67c32691817888cee9"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cdb77c34e1b69cb04bfbf22a16b0a7a55c42903",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/6cdb77c34e1b69cb04bfbf22a16b0a7a55c42903"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b1bb09345b0fc287a31af000eba451cb354d0f6",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/0b1bb09345b0fc287a31af000eba451cb354d0f6"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6149dcc7f1edfcc674e6fa3581c95ae334328cf",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a6149dcc7f1edfcc674e6fa3581c95ae334328cf"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/MainApplicationTests.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "523eecfd8221866d6a6666eee09f8c047da0078e",
+      "size": 373,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/523eecfd8221866d6a6666eee09f8c047da0078e"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/QuestionControllerTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883946a7fc592fcb1651bfb87b58493dc6f06361",
+      "size": 1241,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/883946a7fc592fcb1651bfb87b58493dc6f06361"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/RxJavaTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d27387a9e9fed3e677b7fd0d676159c106dc38da",
+      "size": 884,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d27387a9e9fed3e677b7fd0d676159c106dc38da"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/UserAnswerShardingTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47459f9c3306bbf0e6b372b58c5342643e29cedf",
+      "size": 1292,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/47459f9c3306bbf0e6b372b58c5342643e29cedf"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/ZhiPuAiTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7414ad3602cc9a7fa4eae013d9e47a78f058e18a",
+      "size": 1590,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7414ad3602cc9a7fa4eae013d9e47a78f058e18a"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/manager",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbe85e9fcd90bf1f437c4ac8273c22d85d00e2fd",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/bbe85e9fcd90bf1f437c4ac8273c22d85d00e2fd"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/manager/CosManagerTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf563a0584d1645a40ec20c23cc044ab2e04985c",
+      "size": 509,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/cf563a0584d1645a40ec20c23cc044ab2e04985c"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/mapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2b868c7587c2581e4bc343d88ffa18dae609658",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/f2b868c7587c2581e4bc343d88ffa18dae609658"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/mapper/PostFavourMapperTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a8dd0835fdda21188ce1f6debcf386cd33c349",
+      "size": 1097,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/01a8dd0835fdda21188ce1f6debcf386cd33c349"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/mapper/PostMapperTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "576452fde975609b39dcc1a01504ef39d141708e",
+      "size": 723,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/576452fde975609b39dcc1a01504ef39d141708e"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "797ce5f6695c92384981ea2367f8afa13af3512d",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/797ce5f6695c92384981ea2367f8afa13af3512d"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/service/PostFavourServiceTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2700d5afaecbb8df40cf34390f45e3e62616fc9d",
+      "size": 1283,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2700d5afaecbb8df40cf34390f45e3e62616fc9d"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/service/PostThumbServiceTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce414ffb35161ad779066bbfce4f1608b7ff614",
+      "size": 842,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/7ce414ffb35161ad779066bbfce4f1608b7ff614"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/service/UserServiceTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1496213913e73eedb0fe7191f9229cd77aea41e3",
+      "size": 997,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/1496213913e73eedb0fe7191f9229cd77aea41e3"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fec3a78eb2301028dedbfb4a00eb26aef895691f",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/fec3a78eb2301028dedbfb4a00eb26aef895691f"
+    },
+    {
+      "path": "yudada-backend/src/test/java/com/yupi/yudada/utils/EasyExcelTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32233d38687701e64733f12f1fb8f3f4643a230",
+      "size": 956,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d32233d38687701e64733f12f1fb8f3f4643a230"
+    },
+    {
+      "path": "yudada-frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7dd6ab34c748c7e916bee6ed46640a992b7e10e",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/b7dd6ab34c748c7e916bee6ed46640a992b7e10e"
+    },
+    {
+      "path": "yudada-frontend/.browserslistrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc3bc09a247732bf162a0078796c68ebdc074c30",
+      "size": 40,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/dc3bc09a247732bf162a0078796c68ebdc074c30"
+    },
+    {
+      "path": "yudada-frontend/.eslintrc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac58d73e0741ea3827405d3850d330d91004e27a",
+      "size": 473,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ac58d73e0741ea3827405d3850d330d91004e27a"
+    },
+    {
+      "path": "yudada-frontend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "403adbc1e527906a4aa59558cd582c20bcd1d738",
+      "size": 231,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/403adbc1e527906a4aa59558cd582c20bcd1d738"
+    },
+    {
+      "path": "yudada-frontend/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf31bb30128180162aa567e7213beca7160303db",
+      "size": 726,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/cf31bb30128180162aa567e7213beca7160303db"
+    },
+    {
+      "path": "yudada-frontend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3cf38ada1061fd1c311023823b158a510c448cf",
+      "size": 327,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c3cf38ada1061fd1c311023823b158a510c448cf"
+    },
+    {
+      "path": "yudada-frontend/babel.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "162a3ea97c29233aa898fa74630fde091e91680c",
+      "size": 67,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/162a3ea97c29233aa898fa74630fde091e91680c"
+    },
+    {
+      "path": "yudada-frontend/docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e78dc20c3977f75b1b8adb7b8db307e5a65eb782",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/e78dc20c3977f75b1b8adb7b8db307e5a65eb782"
+    },
+    {
+      "path": "yudada-frontend/docker/nginx.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f791b8f8b686d0ffff607d4deb5f000aec5adcd8",
+      "size": 415,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f791b8f8b686d0ffff607d4deb5f000aec5adcd8"
+    },
+    {
+      "path": "yudada-frontend/openapi.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1ec2c36b7dc0be11f1cfa5e86704661c6790b6",
+      "size": 210,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2f1ec2c36b7dc0be11f1cfa5e86704661c6790b6"
+    },
+    {
+      "path": "yudada-frontend/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbfb63881d7bc92adeba254d1ac8907d7b478556",
+      "size": 738480,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/fbfb63881d7bc92adeba254d1ac8907d7b478556"
+    },
+    {
+      "path": "yudada-frontend/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dac76b702e27cef36d4a33be097d077c520caddc",
+      "size": 1244,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/dac76b702e27cef36d4a33be097d077c520caddc"
+    },
+    {
+      "path": "yudada-frontend/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96810e7d35da2de39c1210df34ad3027cefe29c7",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/96810e7d35da2de39c1210df34ad3027cefe29c7"
+    },
+    {
+      "path": "yudada-frontend/public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "960e486d295d0ec6605e7592f0915d9a0ffb58b3",
+      "size": 4286,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/960e486d295d0ec6605e7592f0915d9a0ffb58b3"
+    },
+    {
+      "path": "yudada-frontend/public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e5a13962197105f2078d2a224cc57dfa09b4893",
+      "size": 611,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3e5a13962197105f2078d2a224cc57dfa09b4893"
+    },
+    {
+      "path": "yudada-frontend/public/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4302446ff411e383ca86bca2939cd784dc7630",
+      "size": 3725,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2a4302446ff411e383ca86bca2939cd784dc7630"
+    },
+    {
+      "path": "yudada-frontend/public/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8e06da692e593244692a615f8c101935f8645f",
+      "size": 2336,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ec8e06da692e593244692a615f8c101935f8645f"
+    },
+    {
+      "path": "yudada-frontend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "595c1877eb20c6e32594833beb0cb74ad9bbc601",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/595c1877eb20c6e32594833beb0cb74ad9bbc601"
+    },
+    {
+      "path": "yudada-frontend/src/App.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf79df95419b1b8c8cbc1ccf3f4095346442309",
+      "size": 613,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/bcf79df95419b1b8c8cbc1ccf3f4095346442309"
+    },
+    {
+      "path": "yudada-frontend/src/access",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dd6140c1caf75941ce8fcfb7909e90fd1e65cb4",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/1dd6140c1caf75941ce8fcfb7909e90fd1e65cb4"
+    },
+    {
+      "path": "yudada-frontend/src/access/accessEnum.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f081265173be2144afa6673c0165d0065697cb6",
+      "size": 137,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6f081265173be2144afa6673c0165d0065697cb6"
+    },
+    {
+      "path": "yudada-frontend/src/access/checkAccess.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed74e549071a9318d748966de8cef2c6ecd0c0e2",
+      "size": 1030,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ed74e549071a9318d748966de8cef2c6ecd0c0e2"
+    },
+    {
+      "path": "yudada-frontend/src/access/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381d9e3c531d722e59484603afccd6dac71ddcaa",
+      "size": 1307,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/381d9e3c531d722e59484603afccd6dac71ddcaa"
+    },
+    {
+      "path": "yudada-frontend/src/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad05d4036068873500d889bb6faf2bcfc7363611",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/ad05d4036068873500d889bb6faf2bcfc7363611"
+    },
+    {
+      "path": "yudada-frontend/src/api/appController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a026988c5036410b7b179cf1f072292be3a6a55",
+      "size": 3270,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0a026988c5036410b7b179cf1f072292be3a6a55"
+    },
+    {
+      "path": "yudada-frontend/src/api/appStatisticController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef91674cef846395352adb98f98ba3ec3c95228",
+      "size": 882,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/5ef91674cef846395352adb98f98ba3ec3c95228"
+    },
+    {
+      "path": "yudada-frontend/src/api/fileController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "470ea5e97772f1f3506a27bbc678a981d5e51107",
+      "size": 1087,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/470ea5e97772f1f3506a27bbc678a981d5e51107"
+    },
+    {
+      "path": "yudada-frontend/src/api/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9127149d066482eab8c894501a8d616a2fe2b7eb",
+      "size": 912,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9127149d066482eab8c894501a8d616a2fe2b7eb"
+    },
+    {
+      "path": "yudada-frontend/src/api/postController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa487ce7dc9b29fbbc013ce5217b0d1adbec4107",
+      "size": 2972,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/aa487ce7dc9b29fbbc013ce5217b0d1adbec4107"
+    },
+    {
+      "path": "yudada-frontend/src/api/postFavourController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c581bdf97eef6d378e37987f28b9fa3aa89be08e",
+      "size": 1229,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c581bdf97eef6d378e37987f28b9fa3aa89be08e"
+    },
+    {
+      "path": "yudada-frontend/src/api/postThumbController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "362bb57ee06157655950f76e2b63dfafc9554938",
+      "size": 412,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/362bb57ee06157655950f76e2b63dfafc9554938"
+    },
+    {
+      "path": "yudada-frontend/src/api/questionController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2377acaba8296c0e5318227cf84f71084fcd4e1",
+      "size": 4470,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/b2377acaba8296c0e5318227cf84f71084fcd4e1"
+    },
+    {
+      "path": "yudada-frontend/src/api/scoringResultController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3431b298e859584e1e289cb5c9d4dd9963386128",
+      "size": 3366,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3431b298e859584e1e289cb5c9d4dd9963386128"
+    },
+    {
+      "path": "yudada-frontend/src/api/typings.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781f1c4dae39059ca0c8b096b828ee34ed7555c8",
+      "size": 16547,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/781f1c4dae39059ca0c8b096b828ee34ed7555c8"
+    },
+    {
+      "path": "yudada-frontend/src/api/userAnswerController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a1f91adcf33a0f898eb5b44e7ba868eb65f6c79",
+      "size": 3509,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/0a1f91adcf33a0f898eb5b44e7ba868eb65f6c79"
+    },
+    {
+      "path": "yudada-frontend/src/api/userController.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eef87df520a80c24d4ff480e44c1774892f74c6b",
+      "size": 4188,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/eef87df520a80c24d4ff480e44c1774892f74c6b"
+    },
+    {
+      "path": "yudada-frontend/src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7e1c4c31796fd286e1907728ab5b49d6b22380f",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a7e1c4c31796fd286e1907728ab5b49d6b22380f"
+    },
+    {
+      "path": "yudada-frontend/src/assets/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4302446ff411e383ca86bca2939cd784dc7630",
+      "size": 3725,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/2a4302446ff411e383ca86bca2939cd784dc7630"
+    },
+    {
+      "path": "yudada-frontend/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b04a7efb90b321fec39b3828dd79bb9a23f4c6ae",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/b04a7efb90b321fec39b3828dd79bb9a23f4c6ae"
+    },
+    {
+      "path": "yudada-frontend/src/components/AppCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4dde48b1b6e149044f1febe7491e7a13b3ef0d6",
+      "size": 2297,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c4dde48b1b6e149044f1febe7491e7a13b3ef0d6"
+    },
+    {
+      "path": "yudada-frontend/src/components/GlobalHeader.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f08160e3de7efde46f1683b31055b6e3c368632c",
+      "size": 2099,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f08160e3de7efde46f1683b31055b6e3c368632c"
+    },
+    {
+      "path": "yudada-frontend/src/components/MdEditor.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "933bf3afae709281fa65937c7436322be8333916",
+      "size": 468,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/933bf3afae709281fa65937c7436322be8333916"
+    },
+    {
+      "path": "yudada-frontend/src/components/MdViewer.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b1eb7aaee8699b022cbde0d24739bbe3b644eaf",
+      "size": 544,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6b1eb7aaee8699b022cbde0d24739bbe3b644eaf"
+    },
+    {
+      "path": "yudada-frontend/src/components/PictureUploader.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "784930e5807e2f090b54dae3e4542e32f011a587",
+      "size": 2638,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/784930e5807e2f090b54dae3e4542e32f011a587"
+    },
+    {
+      "path": "yudada-frontend/src/components/ShareModal.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35603abb4815eae00a7183ba495602f719739a56",
+      "size": 1386,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/35603abb4815eae00a7183ba495602f719739a56"
+    },
+    {
+      "path": "yudada-frontend/src/constant",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc627c7357eed8edb71489b4e4036b4bbf366227",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/bc627c7357eed8edb71489b4e4036b4bbf366227"
+    },
+    {
+      "path": "yudada-frontend/src/constant/app.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4234c107bb9b17a0d4d1ab538ab56252c2df1918",
+      "size": 674,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/4234c107bb9b17a0d4d1ab538ab56252c2df1918"
+    },
+    {
+      "path": "yudada-frontend/src/layouts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7a37f887c5bfa5664b3dd40ec9eca0b68d0e27e",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/e7a37f887c5bfa5664b3dd40ec9eca0b68d0e27e"
+    },
+    {
+      "path": "yudada-frontend/src/layouts/BasicLayout.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28a53733840e66ad388e942071e3acbe2a350aa",
+      "size": 945,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f28a53733840e66ad388e942071e3acbe2a350aa"
+    },
+    {
+      "path": "yudada-frontend/src/layouts/UserLayout.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebc215ecc8aa71ccec49e922640222a4ea9062ad",
+      "size": 1057,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ebc215ecc8aa71ccec49e922640222a4ea9062ad"
+    },
+    {
+      "path": "yudada-frontend/src/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56e67eddc89ae22b1c9726f54ced98206327f192",
+      "size": 335,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/56e67eddc89ae22b1c9726f54ced98206327f192"
+    },
+    {
+      "path": "yudada-frontend/src/request.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4d4dce48d6f8f590152f829849af07ecff56216",
+      "size": 1408,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/d4d4dce48d6f8f590152f829849af07ecff56216"
+    },
+    {
+      "path": "yudada-frontend/src/router",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b50d2256299bbc2104d739d87c2b3f7d60bac229",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/b50d2256299bbc2104d739d87c2b3f7d60bac229"
+    },
+    {
+      "path": "yudada-frontend/src/router/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1903db7ee8a8b8c9079072553be29a80b642af",
+      "size": 223,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/3d1903db7ee8a8b8c9079072553be29a80b642af"
+    },
+    {
+      "path": "yudada-frontend/src/router/routes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e7ccf7aa9312063d804a7274e87714fd7c6cf5",
+      "size": 4073,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/c3e7ccf7aa9312063d804a7274e87714fd7c6cf5"
+    },
+    {
+      "path": "yudada-frontend/src/shims-vue.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e0ca6b82dd012503a3e93bc81369341ffc08db",
+      "size": 171,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/55e0ca6b82dd012503a3e93bc81369341ffc08db"
+    },
+    {
+      "path": "yudada-frontend/src/store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6d245492f77d98ed6a32202d2fe4cd253cbb28b",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/b6d245492f77d98ed6a32202d2fe4cd253cbb28b"
+    },
+    {
+      "path": "yudada-frontend/src/store/userStore.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d1e56dfd4852ce5b6b8c354fea6e9e1ef1fb0b",
+      "size": 768,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/42d1e56dfd4852ce5b6b8c354fea6e9e1ef1fb0b"
+    },
+    {
+      "path": "yudada-frontend/src/views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f62560e7e6ecf9b4d547d522450b65ee0c46d1b7",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/f62560e7e6ecf9b4d547d522450b65ee0c46d1b7"
+    },
+    {
+      "path": "yudada-frontend/src/views/HomePage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04fca9899e8bee351e7f230d4a6e69e4dacca9fc",
+      "size": 2548,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/04fca9899e8bee351e7f230d4a6e69e4dacca9fc"
+    },
+    {
+      "path": "yudada-frontend/src/views/NoAuthPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dee97ffe244cb9db918bbd00ff9268f6dd6c6ee8",
+      "size": 97,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/dee97ffe244cb9db918bbd00ff9268f6dd6c6ee8"
+    },
+    {
+      "path": "yudada-frontend/src/views/add",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56bb0af49461b16876d97f2500364118936ca422",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/56bb0af49461b16876d97f2500364118936ca422"
+    },
+    {
+      "path": "yudada-frontend/src/views/add/AddAppPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "160179e07667ca66ed9e38abf4fd3d809d887f34",
+      "size": 3649,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/160179e07667ca66ed9e38abf4fd3d809d887f34"
+    },
+    {
+      "path": "yudada-frontend/src/views/add/AddQuestionPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e957463f694b942a40629cb87499f39e4da84dc2",
+      "size": 7215,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/e957463f694b942a40629cb87499f39e4da84dc2"
+    },
+    {
+      "path": "yudada-frontend/src/views/add/AddScoringResultPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee008638f1075d71a67341ac1cc42f421c306d6",
+      "size": 3265,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/9ee008638f1075d71a67341ac1cc42f421c306d6"
+    },
+    {
+      "path": "yudada-frontend/src/views/add/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "140fdf311b7729667e2c3d2d66bcf6b0f8f5a14e",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/140fdf311b7729667e2c3d2d66bcf6b0f8f5a14e"
+    },
+    {
+      "path": "yudada-frontend/src/views/add/components/AiGenerateQuestionDrawer.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b7b5a788488436fabe848cc17c66f5c27cb0cf",
+      "size": 4072,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/64b7b5a788488436fabe848cc17c66f5c27cb0cf"
+    },
+    {
+      "path": "yudada-frontend/src/views/add/components/ScoringResultTable.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88fae47583f0895b73cc4b6451ead6fa2abb2585",
+      "size": 4503,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/88fae47583f0895b73cc4b6451ead6fa2abb2585"
+    },
+    {
+      "path": "yudada-frontend/src/views/admin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a20399e80ddf48d6ed5fa335371abfb0ff2e29c2",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/a20399e80ddf48d6ed5fa335371abfb0ff2e29c2"
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminAppPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62db2da1d0a78841a2f97a31730a178523e8a707",
+      "size": 5870,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/62db2da1d0a78841a2f97a31730a178523e8a707"
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminQuestionPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4737138dc9888f3dca98f0682b477a2f670d1a",
+      "size": 3856,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/db4737138dc9888f3dca98f0682b477a2f670d1a"
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminScoringResultPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86911c5f99c66325d2881065b6351f02873a57ae",
+      "size": 4473,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/86911c5f99c66325d2881065b6351f02873a57ae"
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminUserAnswerPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebdfcb32fc1241d16951c31551ad3046d2374d3",
+      "size": 4966,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/aebdfcb32fc1241d16951c31551ad3046d2374d3"
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminUserPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16008e1583dfc5be4a8de47cf240072218caba73",
+      "size": 3861,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/16008e1583dfc5be4a8de47cf240072218caba73"
+    },
+    {
+      "path": "yudada-frontend/src/views/answer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c107c3991c03cd811134d64dbb3abb760d5b9353",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/c107c3991c03cd811134d64dbb3abb760d5b9353"
+    },
+    {
+      "path": "yudada-frontend/src/views/answer/AnswerResultPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdade77787d6e6636d46e37c3a70035d9761d9d8",
+      "size": 2738,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/fdade77787d6e6636d46e37c3a70035d9761d9d8"
+    },
+    {
+      "path": "yudada-frontend/src/views/answer/DoAnswerPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f892cc2813f52f8738f67014584cc00538fdeaa6",
+      "size": 4618,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/f892cc2813f52f8738f67014584cc00538fdeaa6"
+    },
+    {
+      "path": "yudada-frontend/src/views/answer/MyAnswerPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b19ee464799b964be9a53ac35eed121588dcc75",
+      "size": 4627,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/1b19ee464799b964be9a53ac35eed121588dcc75"
+    },
+    {
+      "path": "yudada-frontend/src/views/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3198fb19ae214cc7ab66c6664bb38b29a6ac001",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/d3198fb19ae214cc7ab66c6664bb38b29a6ac001"
+    },
+    {
+      "path": "yudada-frontend/src/views/app/AppDetailPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13e60324eab3e82358d311166f75d9fa008e9b38",
+      "size": 3629,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/13e60324eab3e82358d311166f75d9fa008e9b38"
+    },
+    {
+      "path": "yudada-frontend/src/views/statistic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5dcf5562d7135d1dff7deb149ed4253f90bb1a88",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/5dcf5562d7135d1dff7deb149ed4253f90bb1a88"
+    },
+    {
+      "path": "yudada-frontend/src/views/statistic/AppStatisticPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae1ce4122b47f6810e8c72ca147113c2fb5aa82",
+      "size": 3017,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/6ae1ce4122b47f6810e8c72ca147113c2fb5aa82"
+    },
+    {
+      "path": "yudada-frontend/src/views/user",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdc8f0b211d40802c14ff7c7f978cba6c3a1aa46",
+      "url": "https://api.github.com/repos/liyupi/yudada/git/trees/fdc8f0b211d40802c14ff7c7f978cba6c3a1aa46"
+    },
+    {
+      "path": "yudada-frontend/src/views/user/UserLoginPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c71a6f510c895dbe6b16ec165dd98a8788296be",
+      "size": 1906,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/8c71a6f510c895dbe6b16ec165dd98a8788296be"
+    },
+    {
+      "path": "yudada-frontend/src/views/user/UserRegisterPage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d5f93f2c9c214f958182d89572a7df82d38f09",
+      "size": 2079,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/12d5f93f2c9c214f958182d89572a7df82d38f09"
+    },
+    {
+      "path": "yudada-frontend/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97728218831feb73c429082dcbc970a3f42b8b9b",
+      "size": 729,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/97728218831feb73c429082dcbc970a3f42b8b9b"
+    },
+    {
+      "path": "yudada-frontend/vue.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2ee30dc550513b6815f33e0f5fb749b814c593",
+      "size": 142,
+      "url": "https://api.github.com/repos/liyupi/yudada/git/blobs/ca2ee30dc550513b6815f33e0f5fb749b814c593"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,920 @@
+{
+  "commit": "e5eb265817f13481a543c8a5da4e409d716363e7",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8babd0fedbaca81d8aa00110245e0697eadaf1b7c7626c967500e86d37062f03",
+      "bytes": 12334
+    },
+    {
+      "path": "mbti-test-mini/src/app.ts",
+      "sha256": "12df77700d22087ae0829ec79fc7f4c7680f93effab96a0dbb48fbdca4c4d0ff",
+      "bytes": 421
+    },
+    {
+      "path": "mbti-test-mini/src/components/GlobalFooter/index.tsx",
+      "sha256": "008de4a364c83a3f7ef4bde1f2b7a4695d354037637ee1dcb523e84456280ac1",
+      "bytes": 357
+    },
+    {
+      "path": "mbti-test-mini/src/pages/doQuestion/index.tsx",
+      "sha256": "2c039be73784e9a9213eb1e098db5cb9760f0eaf031f14cc098e4f0487c7d996",
+      "bytes": 2618
+    },
+    {
+      "path": "mbti-test-mini/src/pages/index/index.tsx",
+      "sha256": "7b8b3b70b835b58e89471714b3f6e5b7a4607cf969cf00090a3c41bc39dda867",
+      "bytes": 1039
+    },
+    {
+      "path": "mbti-test-mini/src/pages/result/index.tsx",
+      "sha256": "60c94778ab74b67f830b563900827a890754bf0c85990a369d35d6e290d5b222",
+      "bytes": 1471
+    },
+    {
+      "path": "mbti-test-mini/src/utils/bizUtils.ts",
+      "sha256": "ba2041f7f780c883d84fc80671f1dc2d20fd0de3d6b3d9833628c35afd59b3a3",
+      "bytes": 3262
+    },
+    {
+      "path": "yudada-backend/sql/create_table.sql",
+      "sha256": "5e04465e609ad454d9543674df2d65af0db8236f78b7866688e4c03c31695726",
+      "bytes": 9317
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/MainApplication.java",
+      "sha256": "bddbf0c1b0d2fc9f0f4e6945953a623725c71760bff553623937f7569f8bf2da",
+      "bytes": 945
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/annotation/AuthCheck.java",
+      "sha256": "20203ed5d9e5f51da2dbf61ad85e6708b7739db98fe15bb0b8091b5530931ac5",
+      "bytes": 558
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/aop/AuthInterceptor.java",
+      "sha256": "d265b41cad9fa532e2c2097d761bd817f772a042d6f6a5adb3424752e48e1b80",
+      "bytes": 2607
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/aop/LogInterceptor.java",
+      "sha256": "349e2d69a518cab3844faddaf75cf51dba5985712cb9ca6d1162f20c913e5015",
+      "bytes": 2108
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/BaseResponse.java",
+      "sha256": "649feeeb046aedcb5faeabcd2f2818c6d1316a8138d6a17f50cbbdda8392b4e0",
+      "bytes": 746
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/DeleteRequest.java",
+      "sha256": "19ec9ff91ee339543f34a682bf8ef1bd4dd8ca3025ba18a0f46aaef2c3e8dcea",
+      "bytes": 404
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/ErrorCode.java",
+      "sha256": "1300cc2c4e5c56b6bcfb452843fd0506dd3441b6be84f2e8cc2f05ef799000de",
+      "bytes": 916
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/PageRequest.java",
+      "sha256": "593dad577b2135fbbcb2a2b1f9480bbc5bbe2f058d3269b4285c0de066cee63c",
+      "bytes": 614
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/ResultUtils.java",
+      "sha256": "8fc60b7f942bb3982ec52e91a183edb61e42291354b8a64e04ed819f2cf7df0f",
+      "bytes": 1062
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/common/ReviewRequest.java",
+      "sha256": "18ff5f470e39ee4b443924ddc9b19d3aacfe29532f22a7606615509c1ddbb560",
+      "bytes": 441
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant/CommonConstant.java",
+      "sha256": "0168209f4eaa9f6be30246ece1a0dc9d0dc35c714a48561dcdddb77766d58d60",
+      "bytes": 376
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant/FileConstant.java",
+      "sha256": "5ad9dbbf4c35769785cf618062c115dbabbb8c737d13184e165bd6956d67e949",
+      "bytes": 339
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/constant/UserConstant.java",
+      "sha256": "7253618ae0e091f2821842e90cbd9506e8fde81acaf7cc984dbc98970a790f09",
+      "bytes": 563
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppController.java",
+      "sha256": "255f2276c908c2dc3c7f852167b6f88ea7e1dbf71feb75a7432f857f4e7532f7",
+      "bytes": 10543
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/AppStatisticController.java",
+      "sha256": "b034428de6e7c97c4982c2062cd6ab13bc6c808a9425ec82263c5263e864246b",
+      "bytes": 2107
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/FileController.java",
+      "sha256": "db7be0555dd8ca8f9e7215a4d7c303568624db8277ef61c4d661a25cbcfa5b07",
+      "bytes": 4082
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostController.java",
+      "sha256": "c893e4062fe9eaddeebecfda394798a5edb12cd0bb865bcc2155a1ea6f31a7fb",
+      "bytes": 8879
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostFavourController.java",
+      "sha256": "197755d2ff14d06c633ded62d55c49d7fb5646eff894de9bb7092be0cd41ab8a",
+      "bytes": 4256
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/PostThumbController.java",
+      "sha256": "5c39b0bee77e418d08c901b7860c55a3f0b61e73d12529484af6c5917a997f7a",
+      "bytes": 1892
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/QuestionController.java",
+      "sha256": "76443cf0c99db6630cec76bc6f49394e53bd631891c33abfd3b9a19f5eb1b467",
+      "bytes": 20269
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/ScoringResultController.java",
+      "sha256": "8e186fea7eb179aa7060d635250dda592422ed6f9df1f65cb3ffb288979ea194",
+      "bytes": 10716
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserAnswerController.java",
+      "sha256": "ac5adf8ebf4dea682e454a85691f3765e4c117773767b058eaf650b104d45f3c",
+      "bytes": 11813
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/controller/UserController.java",
+      "sha256": "f76fd6d665341f7b9b0b96fab73a665e87b372486160056d5456b11273ec56d3",
+      "bytes": 10009
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception/BusinessException.java",
+      "sha256": "888032a1983a927c3412e946fd8faeed9d82fda787032cbb22a8faacce127939",
+      "bytes": 813
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception/GlobalExceptionHandler.java",
+      "sha256": "f6273e5faee2bdd8cecdf6be321fecb13d1e7895dc0d8c16c80578078799117a",
+      "bytes": 1047
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/exception/ThrowUtils.java",
+      "sha256": "3ed48041bb940d2aa9ce98c74ed173c72e095417ab61a845741218198c91be09",
+      "bytes": 1083
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/manager/AiManager.java",
+      "sha256": "b1ec3c84b7edbcb93745c479e6dc7d8efa697528f9cebb3c46253bfd9d8c4a9c",
+      "bytes": 4885
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/manager/CosManager.java",
+      "sha256": "b9f139ebf9914f03f46f85dbcc305572103a00676dbfae1d611e2f39972b7259",
+      "bytes": 1391
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/AppMapper.java",
+      "sha256": "20178cdc5dbef9560f32af8bca824ed90aea073ede9dd2095fd89467fcd34304",
+      "bytes": 361
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/PostFavourMapper.java",
+      "sha256": "e294c0e3c15778a83e2cf16982edf074b384ef840c7b44f5560300f842947bcf",
+      "bytes": 995
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/PostMapper.java",
+      "sha256": "c223d7efa5bedac5407244f8ddc05f6ed9201ff237a61e9312c86dd7d84489dc",
+      "bytes": 539
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/PostThumbMapper.java",
+      "sha256": "a7356c8ab582659d77b5cfa6a5c13ad9dea3b55e09c81b447ec39c84eb5559d0",
+      "bytes": 383
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/QuestionMapper.java",
+      "sha256": "4f0b07830e1856034f449a7935a83e373f6658e9b363207450ad9419b9f396f0",
+      "bytes": 386
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/ScoringResultMapper.java",
+      "sha256": "1a19ce0cc7395df001440f37971abb79337c46ffd3e18ef9f6b2b487d277b22f",
+      "bytes": 418
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/UserAnswerMapper.java",
+      "sha256": "f12e4a18c9044cd84f3e290b566171fd5b4075e7c004d637383b9390abcefc00",
+      "bytes": 1070
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/mapper/UserMapper.java",
+      "sha256": "46309e747ef2c141d7f63911964db4bc413759d65193cd8fcb20bba4fa33e408",
+      "bytes": 362
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppAddRequest.java",
+      "sha256": "8326b4add36b292d254d5595d43a97634afc7c908575c9bb60077b5a97bb2027",
+      "bytes": 761
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppEditRequest.java",
+      "sha256": "5036ccf30ff9584e4776c68ddf9099baa8b4409173a68faf8971fd71bd612be3",
+      "bytes": 809
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppQueryRequest.java",
+      "sha256": "e05fff0333e6f16db8f84e3d43f7da061c8921c38a79188b0ea58244d8fe40a5",
+      "bytes": 1367
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/app/AppUpdateRequest.java",
+      "sha256": "e048e69f51bcee550c6532ff235c5676ccf58d3d7601a68a414ecc8e0d8884a1",
+      "bytes": 1143
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/file/UploadFileRequest.java",
+      "sha256": "4f0e391ec0cbba30721fbd0f727954399033edd6a45d276b81661922a6444101",
+      "bytes": 429
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostAddRequest.java",
+      "sha256": "fc4ec595c3cd8e92b385556d9c6b18f5f64825c6a49d01576445c9a8522ba8fb",
+      "bytes": 572
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostEditRequest.java",
+      "sha256": "8a0e20d821a9cd8edeaf41badb416fc21e217de71404437c53238813012e3d31",
+      "bytes": 621
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostQueryRequest.java",
+      "sha256": "f83d751771aa71c84ade4e501cab5df113ebd0ed52d3318e13786c5511163b9c",
+      "bytes": 1086
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/post/PostUpdateRequest.java",
+      "sha256": "ae152179aa8122787db6b68bd6224370c204a037a77668e589f89e5496d03cc4",
+      "bytes": 623
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postfavour/PostFavourAddRequest.java",
+      "sha256": "a5d7cc912d5dfc6a830909a57c2aff073bb5b6a75fb20061b62416f3bf77e0c3",
+      "bytes": 457
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postfavour/PostFavourQueryRequest.java",
+      "sha256": "b6625324c6215face55100ab24b9e806afe0dd3d2c4fcc99ebd7d970ffac33dc",
+      "bytes": 729
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/postthumb/PostThumbAddRequest.java",
+      "sha256": "60fe1a94a3c2c9f2a53eaad4bb262bb9747cf9cd26e19e3457b1be1d9a1ac6ef",
+      "bytes": 440
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/AiGenerateQuestionRequest.java",
+      "sha256": "c48748cf45589ac26bb49be7c6a4990c2495ac4f0e6a9bcaecbd9e35c61b95af",
+      "bytes": 576
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionAddRequest.java",
+      "sha256": "a05f191bc7b668f1469ef0a4e567a64657b5e26628a7d37cc4fc230ca7f2f0bf",
+      "bytes": 698
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionAnswerDTO.java",
+      "sha256": "c840426ae048f1f558fcea3aa73b6a75fb08531f3a70a0938c0bda8d85d0b176",
+      "bytes": 426
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionContentDTO.java",
+      "sha256": "37111242a80770ce84295cde66f2b576265e7f8cb28be2547d553ce8e4bcdf3b",
+      "bytes": 629
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionEditRequest.java",
+      "sha256": "6cd1c6c49ea89a64eb143a04be35ab9afbac49152758d9daa6215c3dafe425be",
+      "bytes": 689
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionQueryRequest.java",
+      "sha256": "a61c3d2f8ec51f9d18fedc5487fe432c05a8f6c700b1a4b9fc92fd1b19008dc6",
+      "bytes": 979
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/question/QuestionUpdateRequest.java",
+      "sha256": "b91085312d17f6e349b146ac54a99c5b21c4eee62096ddb75538fd0de2efbe3a",
+      "bytes": 565
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultAddRequest.java",
+      "sha256": "a4213845efc2883885b693014ef597e7bf43a86f7f6dbabfdec911c19a986d75",
+      "bytes": 1065
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultEditRequest.java",
+      "sha256": "defa37f0263e513c4430b0ffd982bcb6b587cdaaf0b0258d5b9c590f39878968",
+      "bytes": 1056
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultQueryRequest.java",
+      "sha256": "5390bb4d89657d3fde0327ddf441b7f5130f5ce0f9ad32714e1e8e0009589358",
+      "bytes": 1423
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/scoringResult/ScoringResultUpdateRequest.java",
+      "sha256": "97cef6ff6ff84aec978437cc3e6a9d150627f0c317bfe8e4096dd41d2c876137",
+      "bytes": 932
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/statistic/AppAnswerCountDTO.java",
+      "sha256": "594690a3dbea7f784bacdda301ac69015e32f1bf2fe7b62593cabfee91c6bc79",
+      "bytes": 251
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/statistic/AppAnswerResultCountDTO.java",
+      "sha256": "b5394858f16e9b39a849654e01355a19002170990f7fb8cb93a77b9d00842d73",
+      "bytes": 250
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserAddRequest.java",
+      "sha256": "85397d6e22a4257abc2c8b2ab211ce33f5b2935ba7f303544ade9a88d08573fa",
+      "bytes": 647
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserLoginRequest.java",
+      "sha256": "03dbf02295cf2b6425f060fcd274cbcb20e548ac04f1e263fe830eeeeead46f7",
+      "bytes": 459
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserQueryRequest.java",
+      "sha256": "1b0c94b3a798ea59fb6e285e811fe1112f2cbd10c65263e8f6401b109fce9508",
+      "bytes": 901
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserRegisterRequest.java",
+      "sha256": "b887fba501f2140ef2b8ea4acdc89374bedafd15d8abce97ad42cfc939c4ce87",
+      "bytes": 500
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserUpdateMyRequest.java",
+      "sha256": "f761fbcf6fd14c3558c48fe2b4551d6f29eee266db4ed04cd7e37bbca1a4340a",
+      "bytes": 585
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/user/UserUpdateRequest.java",
+      "sha256": "0c8dd89308ba844c3b1e68fddf77b4552eb0cb3dc504585eb04520c7909dccbf",
+      "bytes": 701
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerAddRequest.java",
+      "sha256": "fbe83d4cf422945b5dcfe07ffe9034ae88fd9efd4020e5b59701b4927fb91719",
+      "bytes": 671
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerEditRequest.java",
+      "sha256": "ca4d2cf9750ec81740bceb56f7699ba07e78525ab4cfdec1f700e788a3afc671",
+      "bytes": 716
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerQueryRequest.java",
+      "sha256": "b1a26c53efa75d22ee6806145c7501a18f81f06ed0cbcc3e59a628a69bfc23bd",
+      "bytes": 1569
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/dto/userAnswer/UserAnswerUpdateRequest.java",
+      "sha256": "4f26be4308a210dedba2e861d7e93d63ce0147c03aefa99c9145cf96371e5ca8",
+      "bytes": 614
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/App.java",
+      "sha256": "c6beb9eae41a1199d82cb1af49e0bc884e3f3b902fcc4ca6043b9c4aa97b720c",
+      "bytes": 1415
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/Post.java",
+      "sha256": "678522f1ca75550597800a97c0fe89d08d32a61a3c2fe939baa8cc93e381806d",
+      "bytes": 1373
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/PostFavour.java",
+      "sha256": "0e13aa6a6a7b6b21c42877c63fb6131a23c7d168007a9f4e11d30c89397eb8b0",
+      "bytes": 997
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/PostThumb.java",
+      "sha256": "f725f274c2ee561e929ccfc06772aa2315b93e055ac031580c2ea48537ed1984",
+      "bytes": 994
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/Question.java",
+      "sha256": "65643724f9de0b816dfeb3698563abf81381a795010e39fa37ed70b751fec5fc",
+      "bytes": 882
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/ScoringResult.java",
+      "sha256": "62c2fb53967d81f889f20c0149d14c25523794ba6c3340d73ef7643abb583866",
+      "bytes": 1268
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/User.java",
+      "sha256": "8446487fee44e17d8439a287af29a7788a45750ea40566206f0da1d6578a1d4f",
+      "bytes": 1557
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/entity/UserAnswer.java",
+      "sha256": "d7b87935503fd2838fa8642cf2269d9cc5820493c6e08348ef5dc319930ba18e",
+      "bytes": 1441
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/AppScoringStrategyEnum.java",
+      "sha256": "dfa71092168145a959d2780648b3097dd3e6cd9af4f4d5bb0568fc07af9348e6",
+      "bytes": 1363
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/AppTypeEnum.java",
+      "sha256": "8fd510d4f6e42e49e8ac30f817d2bdbbbf72632174e6bb6555e024602d842135",
+      "bytes": 1316
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/FileUploadBizEnum.java",
+      "sha256": "e0721b050fbae2ae96a2b4704cea8b85729db2e9bc62d1786e17ec2a1a09ed30",
+      "bytes": 1481
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/ReviewStatusEnum.java",
+      "sha256": "0ebd34cde34980920108797ac3eb0cb7867d1ec1c271ae00a13f505a0bf1350e",
+      "bytes": 1363
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/enums/UserRoleEnum.java",
+      "sha256": "b3954c7f61c61e0777949e168e9fc7f0a59b5af313ae3306beb30992dceb1f49",
+      "bytes": 1368
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/AppVO.java",
+      "sha256": "10ae0ab253c59878f175601a30cd54bf9720cfb4e77f9d433769bf67c1795c72",
+      "bytes": 2168
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/LoginUserVO.java",
+      "sha256": "f94745dff485f7fe31a2db486103f79b2f961e12f1f3ddbaed09fd5902229f5f",
+      "bytes": 874
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/PostVO.java",
+      "sha256": "93c3a63c0c3baf46bf36f932bf23359112d06bee4b87bbf3bbb50b954c0308c2",
+      "bytes": 2020
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/QuestionVO.java",
+      "sha256": "4d165036c2df3a6b1fc7ee314d1ba5df8d34d8f9f8c7ff38275c5b56f2dcc508",
+      "bytes": 2199
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/ScoringResultVO.java",
+      "sha256": "e00c899d1b83585dff07b44cf1edf4ca7fab65b2b947263780223fe08d86376f",
+      "bytes": 2426
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/UserAnswerVO.java",
+      "sha256": "e860f6b6219053f96adfb82b69c4744e84e8389e461b2d3389140f15c6caa9ce",
+      "bytes": 2504
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/model/vo/UserVO.java",
+      "sha256": "4de7128495e1b8cb96a0f3288f6698e7a3fe9c0c86b1ce4e7017848c3115bfea",
+      "bytes": 786
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/AiTestScoringStrategy.java",
+      "sha256": "ad3f2672a2a0b617e6f0406753eb32e105f6a531a68240be8328ac2abfdd62c2",
+      "bytes": 6609
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/CustomScoreScoringStrategy.java",
+      "sha256": "f568a53a45cc3ff2c351630e867b5386b1585c46e8d9c788cfcd25d7a6078374",
+      "bytes": 3755
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/CustomTestScoringStrategy.java",
+      "sha256": "7cd834c733ac44a8ffe9d3f40479182fa6ba050efd0136766d80d6a1152e7584",
+      "bytes": 4478
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategy.java",
+      "sha256": "1e1c992fe6df4de1279886e973da0a8d1a66fa881021b538ecf84ceabd441508",
+      "bytes": 543
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategyConfig.java",
+      "sha256": "ce0c4ae2599b4603d9fba123bbea5af9e11634a6c2da5826aaa726fdf91585fc",
+      "bytes": 512
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategyContext.java",
+      "sha256": "e84e09fc6ebb21497213ee143163d91f1009eec955192f07b7882ca4599f390f",
+      "bytes": 2073
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/scoring/ScoringStrategyExecutor.java",
+      "sha256": "965745f065ddd302d23e9f4f7ed3026198a770856f8152d3af1d82f00c17c0b1",
+      "bytes": 1656
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/AppService.java",
+      "sha256": "386cb33b9532c05d94235f50f040562dbbfa9221757f0456534654872ab2af02",
+      "bytes": 1305
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/PostFavourService.java",
+      "sha256": "a2acca42a950bd5e80bdced4b7f49fbf507ab526a39a0ab43fe8427000080935",
+      "bytes": 1237
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/PostService.java",
+      "sha256": "cb9ff4ca098c7fd59abda61b8d1424fcbe94bd315873f9e9441198b8ba8c119f",
+      "bytes": 1283
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/PostThumbService.java",
+      "sha256": "6d436cad2a124293159b707f8397939817d62726d7e527aa4472891bed919033",
+      "bytes": 734
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/QuestionService.java",
+      "sha256": "394c826e2006ec3cd4e5d0e9f9e58feee76a4c54574cb54c9990112de53b4d7f",
+      "bytes": 1425
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/ScoringResultService.java",
+      "sha256": "302a3f5bd5be75516c17c7ad70b316177c1599cfae49ed5a22e07c38935af6f3",
+      "bytes": 1563
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/UserAnswerService.java",
+      "sha256": "91433205b3814e3025ffb4142c341850460b1774af8a64b5f15f014e614649b4",
+      "bytes": 1491
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/UserService.java",
+      "sha256": "95316d59b458bd04b89f36b96f8617a03e4c86f5cf2eff2ee09da0b4b30d533a",
+      "bytes": 2467
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/AppServiceImpl.java",
+      "sha256": "f22a94dd5b04ad867b6ec115935086259de85431b0a9a35b76f3059dec20f62d",
+      "bytes": 8184
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/PostFavourServiceImpl.java",
+      "sha256": "67efe8f82c6c7db9339f3bcfa708832a4f6698af9d54c24ceabbe17b3859c080",
+      "bytes": 3935
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/PostServiceImpl.java",
+      "sha256": "7cd326fa0c598a0c97f750416e5a87d95f4ecae3ee8ef3b7aa24db11817ed8ae",
+      "bytes": 8561
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/PostThumbServiceImpl.java",
+      "sha256": "3623d6ff92df65841fb4b841567462f18f2ba3bc690b7b6c4a589de6bca2bb19",
+      "bytes": 3421
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/QuestionServiceImpl.java",
+      "sha256": "1b3822f63fa933e42313e01a3508dc9c8acee166e2c38c96c94f5f7d742daf41",
+      "bytes": 6557
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/ScoringResultServiceImpl.java",
+      "sha256": "0482b7b9275ca3411fb6a8994fc74c03a6a3d447e14da9d76a33be6e5579b2da",
+      "bytes": 8098
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/UserAnswerServiceImpl.java",
+      "sha256": "bbd2aae93bef55d669641659cae0b597ea1ca55ea5ded1c876e48ca22696141e",
+      "bytes": 8043
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/service/impl/UserServiceImpl.java",
+      "sha256": "aa9abb71e3083e54b16ef0c1e0adb91b43deda2f2ba9185644979b03a1fa90b7",
+      "bytes": 9067
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils/NetUtils.java",
+      "sha256": "675a28ce45ab9ba0cfe411ca2acfe258fa40c21700fe735a0b34f9ade95985c6",
+      "bytes": 1718
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils/SpringContextUtils.java",
+      "sha256": "127f8012eb4b0dce87dc3431718138dd283025bcdd49e7035a7c71f84494ad33",
+      "bytes": 1518
+    },
+    {
+      "path": "yudada-backend/src/main/java/com/yupi/yudada/utils/SqlUtils.java",
+      "sha256": "79ce668835d70cfb6f0f19d149c99e73bff4660786126a4585a8ef420c542313",
+      "bytes": 606
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/AppMapper.xml",
+      "sha256": "4576902e8568bde027252657443682e1728f205c824a51391471b52766389d14",
+      "bytes": 1675
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/PostFavourMapper.xml",
+      "sha256": "90951388ee82fcdf54a365dfc290351ecddf08ba987c8123341b3f6a1b1ff78f",
+      "bytes": 1244
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/PostMapper.xml",
+      "sha256": "f434f9e0e4015ad922293a41dec338d70d1f8bcf8a88ae34e1504d1e9eb4c218",
+      "bytes": 1518
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/PostThumbMapper.xml",
+      "sha256": "ca59c437ed35340fe7a8220c86b7333c0b4d078cff89a66603a34e2ea35d1e61",
+      "bytes": 956
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/QuestionMapper.xml",
+      "sha256": "81b9ce53b220f4a856e4958fdd02e8d118c959f31da3a20bd581e72dad10393c",
+      "bytes": 1013
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/ScoringResultMapper.xml",
+      "sha256": "d7ca21602d59a2f8ccf76578ad9007e29454291b913e4fe64c1de49ed0cb7a9d",
+      "bytes": 1420
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/UserAnswerMapper.xml",
+      "sha256": "c994978ee7a776c158c43f0d8a9940b4c8ccf960bb660e2316e8e2162abd2060",
+      "bytes": 1680
+    },
+    {
+      "path": "yudada-backend/src/main/resources/mapper/UserMapper.xml",
+      "sha256": "cd10aaf5c129302165262459e698b33731d80aee53c7a5e2628d1a627adf6912",
+      "bytes": 1380
+    },
+    {
+      "path": "yudada-frontend/src/App.vue",
+      "sha256": "86f87c8202afae82af9c1f1ff1ef935cd864f4aa50cb90f7b28424b603cf14da",
+      "bytes": 613
+    },
+    {
+      "path": "yudada-frontend/src/access/accessEnum.ts",
+      "sha256": "12c1212c811d7596d5f5bd29482c4d9c91aa051c87cc6934dd1ea2c8978dccc1",
+      "bytes": 137
+    },
+    {
+      "path": "yudada-frontend/src/access/checkAccess.ts",
+      "sha256": "35facaaf0c65fccf351a5546c62a4b9320387ad5be7eef74512a4f2bc514ad2d",
+      "bytes": 1030
+    },
+    {
+      "path": "yudada-frontend/src/access/index.ts",
+      "sha256": "7a9f419cd9de8efcd7db9f8261ac5962609a63ccf1073df83bb87e6b7f0f3f91",
+      "bytes": 1307
+    },
+    {
+      "path": "yudada-frontend/src/api/appController.ts",
+      "sha256": "4f6210a83cb246cea0a22c9c02755e038c8b02cea59653155b6a97cfb1e00bef",
+      "bytes": 3270
+    },
+    {
+      "path": "yudada-frontend/src/api/appStatisticController.ts",
+      "sha256": "2943fac0c370e7a014d16a4825a75173c9130bb94915e8696e8f5c15fd0b2091",
+      "bytes": 882
+    },
+    {
+      "path": "yudada-frontend/src/api/fileController.ts",
+      "sha256": "6abc23903cf605db5ebdc5a462937737e4aa0cdfec79c42bd37347f7d60768b4",
+      "bytes": 1087
+    },
+    {
+      "path": "yudada-frontend/src/api/index.ts",
+      "sha256": "bed69c45d31f75489b5619baca6bed61a43cf345146e628ca22df3cd12d6b1b6",
+      "bytes": 912
+    },
+    {
+      "path": "yudada-frontend/src/api/postController.ts",
+      "sha256": "7f5cd86602a155bd4d70c8797511f6f519818458c2aed4eb631276aa8193976c",
+      "bytes": 2972
+    },
+    {
+      "path": "yudada-frontend/src/api/postFavourController.ts",
+      "sha256": "073a049e3b01a22dec9334d95f2d33bb4e1ba3c0e3818e7ada00af3bbc22309a",
+      "bytes": 1229
+    },
+    {
+      "path": "yudada-frontend/src/api/postThumbController.ts",
+      "sha256": "fd0a151f548a5bd9be6075a1118e21e069cd48732941dd1ff5380513a94b14ee",
+      "bytes": 412
+    },
+    {
+      "path": "yudada-frontend/src/api/questionController.ts",
+      "sha256": "3fb747e266b6be07301cf118617ddb6f9c33225e9106a00b0e18e55e3e2f60a2",
+      "bytes": 4470
+    },
+    {
+      "path": "yudada-frontend/src/api/scoringResultController.ts",
+      "sha256": "f8a6658da2e675e8fdc096294019274f812da4bb1c69743cdf69d80172d37169",
+      "bytes": 3366
+    },
+    {
+      "path": "yudada-frontend/src/api/typings.d.ts",
+      "sha256": "91c40d773d64fb714e5069bf3732f7f128160958023863fa169c558d98d5b7c2",
+      "bytes": 16547
+    },
+    {
+      "path": "yudada-frontend/src/api/userAnswerController.ts",
+      "sha256": "61c3728259ddfd0417f17bbac00adc93d9a64443c13fc3f772236e47faf20cbb",
+      "bytes": 3509
+    },
+    {
+      "path": "yudada-frontend/src/api/userController.ts",
+      "sha256": "1e4ddccb32a3fe798ab293b54c16e797b88450cd78984d3f6f2c6d7566ef7b83",
+      "bytes": 4188
+    },
+    {
+      "path": "yudada-frontend/src/components/AppCard.vue",
+      "sha256": "e344100c019d518f92ad320d7bbc7627abe74746badeb103ad7d208a584a5b25",
+      "bytes": 2297
+    },
+    {
+      "path": "yudada-frontend/src/components/GlobalHeader.vue",
+      "sha256": "3473ac7e5d3c7d545f97e955af4905267a431a690f43155401242eb20625c034",
+      "bytes": 2099
+    },
+    {
+      "path": "yudada-frontend/src/components/MdEditor.vue",
+      "sha256": "7f6613e6bdf0b36f0f35514db499d13e9ec549b2ee54d8017c7426172e0970c3",
+      "bytes": 468
+    },
+    {
+      "path": "yudada-frontend/src/components/MdViewer.vue",
+      "sha256": "ebfd01db1bfe000d9923e210b2327a4d758cdc2b08c18d68787aab25cb6014e7",
+      "bytes": 544
+    },
+    {
+      "path": "yudada-frontend/src/components/PictureUploader.vue",
+      "sha256": "ba8e67064af1ecd2a0bebd5b503ce61e12b106dcde42a5b9d0ab79a772a75714",
+      "bytes": 2638
+    },
+    {
+      "path": "yudada-frontend/src/components/ShareModal.vue",
+      "sha256": "d3e7e8b2846fd1ed15135a934a2ded7a19034112ad0a66e3a5a8f57187ccce2e",
+      "bytes": 1386
+    },
+    {
+      "path": "yudada-frontend/src/constant/app.ts",
+      "sha256": "97922f7a36642eeba3495c9d3dce43c2a9b77df54309f3d5ebed43cba5a4fa20",
+      "bytes": 674
+    },
+    {
+      "path": "yudada-frontend/src/layouts/BasicLayout.vue",
+      "sha256": "69a6b8e19542ce97e393cf473db4dacb5638f9fe17b27c2aef8a0ee77a6f48a8",
+      "bytes": 945
+    },
+    {
+      "path": "yudada-frontend/src/layouts/UserLayout.vue",
+      "sha256": "04800928b92948f1d5204a3a1cc490fc122b41356508973de601bde74fa8bfbb",
+      "bytes": 1057
+    },
+    {
+      "path": "yudada-frontend/src/main.ts",
+      "sha256": "243299d28992f9d0c1483e424684cdcd0d29d01ffa7268eda4122bde97b4371b",
+      "bytes": 335
+    },
+    {
+      "path": "yudada-frontend/src/request.ts",
+      "sha256": "0211afa29b00028e619f4816de39e089a76c32ba2ac4076275c12d68f45d0447",
+      "bytes": 1408
+    },
+    {
+      "path": "yudada-frontend/src/router/index.ts",
+      "sha256": "19c6c6ebb1af4882997fd5e138c67640e469b5fbe68c3c8e45e93a31d46b3f41",
+      "bytes": 223
+    },
+    {
+      "path": "yudada-frontend/src/router/routes.ts",
+      "sha256": "617e17c723f8ffedb7ec131c87d813ef512a1ea2a174d2ecbdd65c959549aaed",
+      "bytes": 4073
+    },
+    {
+      "path": "yudada-frontend/src/shims-vue.d.ts",
+      "sha256": "d166dd83f3a50c5fc7d4503d5b95c9631d688aca9c4407ee48d585b0a24205fc",
+      "bytes": 171
+    },
+    {
+      "path": "yudada-frontend/src/store/userStore.ts",
+      "sha256": "004c87f014de916343eea91e94ea034f694afa52cf5212b8372f01561572adf9",
+      "bytes": 768
+    },
+    {
+      "path": "yudada-frontend/src/views/HomePage.vue",
+      "sha256": "7f6e4885078c22fcef8356c2ce9e5423f1a89e48d89ad6f2fd31aa435ee521c8",
+      "bytes": 2548
+    },
+    {
+      "path": "yudada-frontend/src/views/NoAuthPage.vue",
+      "sha256": "0dbc25efd1b44853615f9545bef31360ce21d7f42d4d3d289e228c2e62e5c95c",
+      "bytes": 97
+    },
+    {
+      "path": "yudada-frontend/src/views/add/AddAppPage.vue",
+      "sha256": "6d841a6236bfa467b642647563eb6bb8cdf5884ee2124e05a1a8a5fecd760baa",
+      "bytes": 3649
+    },
+    {
+      "path": "yudada-frontend/src/views/add/AddQuestionPage.vue",
+      "sha256": "1b8609547b0cfbf44e826d3f0723ee20ee291b8185c4a7ce1ed53ae59bd912d5",
+      "bytes": 7215
+    },
+    {
+      "path": "yudada-frontend/src/views/add/AddScoringResultPage.vue",
+      "sha256": "b1086cf5987dc88321de2cfdb52287bb20fd45534f640e03677ffcb3bb952e81",
+      "bytes": 3265
+    },
+    {
+      "path": "yudada-frontend/src/views/add/components/AiGenerateQuestionDrawer.vue",
+      "sha256": "181a745d9368cea7038560f7bfdce23de399f2a61cf1c88b041844ef08d383bc",
+      "bytes": 4072
+    },
+    {
+      "path": "yudada-frontend/src/views/add/components/ScoringResultTable.vue",
+      "sha256": "463b5c878c0a7e1cde63e0b53df21d5ffccd903c16aa9b601641a08ceda353d9",
+      "bytes": 4503
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminAppPage.vue",
+      "sha256": "051282f87688de0e7e1653e78cad4c4be3e5f7c6d6a711c1920b7522eb88deb5",
+      "bytes": 5870
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminQuestionPage.vue",
+      "sha256": "6de28898a30f96bd0d1a57a780e138c52ebbe921bd3b8fea73bd28d184ec5bf4",
+      "bytes": 3856
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminScoringResultPage.vue",
+      "sha256": "1c7dd86227c9e125bd6537258c592ba2da016f54e8b085bfa4dd4c27fe4b6d5f",
+      "bytes": 4473
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminUserAnswerPage.vue",
+      "sha256": "538deb913d1a73eeadedc92c92ad5bb36593e42cfd745d7d964419ce42198a9b",
+      "bytes": 4966
+    },
+    {
+      "path": "yudada-frontend/src/views/admin/AdminUserPage.vue",
+      "sha256": "649385be8a2bb26d7b82636e911ba7328fab56893016362d7ad7c48cc3c3e33d",
+      "bytes": 3861
+    },
+    {
+      "path": "yudada-frontend/src/views/answer/AnswerResultPage.vue",
+      "sha256": "ece02f75e6614d8db374b87e777274e2a850d87b6a5df3a2926f6bb3492e9809",
+      "bytes": 2738
+    },
+    {
+      "path": "yudada-frontend/src/views/answer/DoAnswerPage.vue",
+      "sha256": "c201a9229e92b0ef4a10f84c8ff1393154b6fd91552882f3254207ef100e2c89",
+      "bytes": 4618
+    },
+    {
+      "path": "yudada-frontend/src/views/answer/MyAnswerPage.vue",
+      "sha256": "5ecfec86a8fea5038d2602837ac03ca42fbe4fa601d1065136264d53d2917eb7",
+      "bytes": 4627
+    },
+    {
+      "path": "yudada-frontend/src/views/app/AppDetailPage.vue",
+      "sha256": "774cc4643df381efbb3816ac85999daab53a4d6f4f0876fcc4c6c6b5a42ce205",
+      "bytes": 3629
+    },
+    {
+      "path": "yudada-frontend/src/views/statistic/AppStatisticPage.vue",
+      "sha256": "899f625beb12aa4af4d8e6ddc52046885034f6fa876f6fc02888f2e40fdb846e",
+      "bytes": 3017
+    },
+    {
+      "path": "yudada-frontend/src/views/user/UserLoginPage.vue",
+      "sha256": "d7039e9abfa23d7b797b0dd79d34b622e4cdf201797baa69444318f382824c6e",
+      "bytes": 1906
+    },
+    {
+      "path": "yudada-frontend/src/views/user/UserRegisterPage.vue",
+      "sha256": "4b82c767c17ee346a498148fb10a20d4e8f9bcce173254647f716fcb7438f2e1",
+      "bytes": 2079
+    }
+  ]
+}

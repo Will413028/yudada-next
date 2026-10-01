@@ -1,0 +1,14 @@
+{
+  "name": "yudada-next",
+  "private": true,
+  "packageManager": "pnpm@11.2.2",
+  "engines": { "node": ">=24 <27" },
+  "scripts": {
+    "generate:client": "openapi-typescript apps/api/openapi.json -o apps/web/src/lib/api/schema.d.ts",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "openapi-typescript": "^7.10.0"
+  }
+}

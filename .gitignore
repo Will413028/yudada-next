@@ -1,0 +1,17 @@
+docs/plans/*/reference-source/
+AGENTS.local.md
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.next/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+.artifacts/
+*.tsbuildinfo
