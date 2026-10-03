@@ -3,6 +3,7 @@
 以 Next.js + FastAPI 建立完整 AI 答題 Web 平台，包含使用者端與管理端。
 
 - 範圍與驗收見 `docs/plans/2026-10-01-full-rebuild.md`；功能來源見其附件 `docs/plans/2026-10-01-full-rebuild/inventory.md`。
+- 決策紀錄（ADR）：`docs/adr/`。
 - 執行命令與本機環境見 `README.md`。驗收使用 `make check`、`make test-integration`、`make test-e2e`、`make test-faults`；同一 checkout 循序執行。
 - API 位於 `apps/api`，Web 位於 `apps/web`；FastAPI 是業務與權限 SSOT。SSR 轉送 Cookie 的 adapter 必須 server-only，browser 使用同源 `/api`。
 - DTO 由 `make generate-client` 生成；不得手改 `apps/api/openapi.json` 或 `apps/web/src/lib/api/schema.d.ts`。改 schema 後生成並通過 drift gate。
